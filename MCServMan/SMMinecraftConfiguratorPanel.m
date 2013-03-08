@@ -7,7 +7,6 @@
 //
 
 #import "SMMinecraftConfiguratorPanel.h"
-
 @interface SMMinecraftConfiguratorPanel ()
 
 @end
@@ -85,12 +84,12 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(NSInteger)rowIndex {
 - (BOOL)textView:(NSTextView *)aTextView shouldChangeTextInRange:(NSRange)affectedCharRange replacementString:(NSString *)replacementString { return NO; }
 - (BOOL)textView:(NSTextView *)textView shouldChangeTextInRanges:(NSArray *)affectedRanges replacementStrings:(NSArray *)replacementStrings { return NO; }
 - (void)_panelPop:(NSPanel*)panel{
-    SMAppDelegate*a = [[NSApplication sharedApplication]delegate];
+    SMAppDelegate*a = (SMAppDelegate*)[[NSApplication sharedApplication]delegate];
     [a _panelPop:panel];
 }
 
 -(void)_panelUnpop:(NSPanel*)panel{
-    SMAppDelegate*a = [[NSApplication sharedApplication]delegate];
+    SMAppDelegate*a = (SMAppDelegate*)[[NSApplication sharedApplication]delegate];
     [a _panelUnpop:panel];
 }
 -(void)replacePanel:(NSPanel*)p withPanel:(NSPanel*)a{
