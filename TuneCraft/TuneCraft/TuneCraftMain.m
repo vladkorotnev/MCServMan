@@ -94,7 +94,7 @@ static bool isReady=false;
 -(void)_postNowPlaying {
     iTunesApplication*app = [SBApplication applicationWithBundleIdentifier:@"com.apple.iTunes"];
     if(![app isRunning]){
-        [serv sendServerMessage:[NSString stringWithFormat:@"msg %@ iTunes is not running",username]];
+       [serv sendServerMessage:[NSString stringWithFormat:@"msg %@ iTunes is not running",username]];
         return;
     }
     if([app playerState] == iTunesEPlSStopped){
@@ -113,11 +113,10 @@ static bool isReady=false;
         return; //not chat, no interest for us
     }
     if (!isReady) {
-        return; //dont spam the console if iTunes not running because of the server debug msgs
+        return; //dont spam the console because of the server debug msgs
     }
     iTunesApplication*app = [SBApplication applicationWithBundleIdentifier:@"com.apple.iTunes"];
     if(![app isRunning]){ //No iTunes running here
-        [serv sendServerMessage:[NSString stringWithFormat:@"msg %@ iTunes is not running",username]];
         return;
     }
     [self readSettings];
