@@ -74,7 +74,7 @@ static bool isReady=false;
 - (void) onServerStart:(SMServer<SMServerPluginsAllowedMethodsProtocol>*)server{
     serv = server;
     [self readSettings];
-    [app _log:[NSString stringWithFormat:@"== Tunecraft is ready to rock for %@\n",username]];
+    
     if (postNowplaying) {
         NSLog(@"Subscribed to iTunes");
         [[NSDistributedNotificationCenter defaultCenter]addObserver:self selector:@selector(_postNowPlaying) name:@"com.apple.iTunes.playerInfo" object:nil]; //auto nowplaying
@@ -88,6 +88,7 @@ static bool isReady=false;
 }
 - (void) onServerDoneLoading:(SMServer<SMServerPluginsAllowedMethodsProtocol>*)server {
     isReady=true;
+    [app _log:[NSString stringWithFormat:@"== Tunecraft is ready to rock for %@\n",username]];
 }
 
 -(void)_postNowPlaying {

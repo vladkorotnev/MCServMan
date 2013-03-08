@@ -54,8 +54,20 @@ static bool didLaunchServerForWorldCreation;
 }
 - (void) MinecraftServer:(SMServer*)server didGetOutput:(NSString*)line{
     [self _log:line]; //output from server console into this console
-    if (didLaunchServerForWorldCreation && [line contains:@"Done"]) {
-        [serverConnection sendServerMessage:@"stop"]; //if the sole purpose was to create the world and it's done, then stop it and proceed
+    if ([line contains:@"Done"] && [line contains:@"For help"]) {
+        if (didLaunchServerForWorldCreation ) {
+            [serverConnection sendServerMessage:@"stop"]; //if the sole purpose was to create the world and it's done, then stop it and proceed
+            return;
+        }
+        NSLog(@"OnDone");
+        NSBeep();
+        if (self.plugins.state == 1) {
+            for (NSObject<MCServManPlugin>*plug in loadedPlugins) { //tell plugins about the Done
+                if ([plug respondsToSelector:@selector(onServerDoneLoading:)]) {
+                    [plug onServerDoneLoading:serverConnection];
+                }
+            }
+        }
         return;
     }
     if (self.plugins.state == 1) {
@@ -178,6 +190,7 @@ objectValueForTableColumn:(NSTableColumn *) aTableColumn
     if (scroll)
         [self.logField scrollRangeToVisible: NSMakeRange(self.logField.string.length, 0)];
 }
+
 - (void)_panelPop:(NSPanel*)panel{ //drop-in for easy code
     [[NSApplication sharedApplication] beginSheet:panel
                                    modalForWindow:self.window
@@ -500,6 +513,10 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
 
 - (IBAction)chgRadioOnAfter:(id)sender { // more ui goodies
     [self.afterTimeField setEnabled:true];
+}
+
+- (IBAction)clearLog:(id)sender {
+    [self.logField setString:@""];
 }
 - (IBAction)closePlugMgr:(id)sender { //close plugin manager
     [self _panelUnpop:self.plugMgr];

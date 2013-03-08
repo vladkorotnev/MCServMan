@@ -27,6 +27,7 @@
 @property (assign) IBOutlet NSButton *configBrn;
 - (IBAction)chgRadioOnStopper:(id)sender;
 - (IBAction)chgRadioOnAfter:(id)sender;
+- (IBAction)clearLog:(id)sender;
 @property (assign) IBOutlet NSTextField *afterTimeField;
 - (IBAction)pluginDir:(id)sender;
 @property (assign) IBOutlet NSButtonCell *stopAfter;
