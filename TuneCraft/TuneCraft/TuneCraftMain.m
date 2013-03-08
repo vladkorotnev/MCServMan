@@ -32,6 +32,7 @@ static NSString * username; //user
 static TuneCraftSettingViewController*set=nil; //setting controller
 static NSMutableArray*res; //result of search
 static bool postNowplaying=false; //auto nowplaying
+static bool isReady=false;
 
 - (void)readSettings {
     if (!prefDict) { // load setting into dict
@@ -81,8 +82,12 @@ static bool postNowplaying=false; //auto nowplaying
 }
 
 - (void) onServerStop:(SMServer<SMServerPluginsAllowedMethodsProtocol>*)server{
+    isReady=false;
      if (postNowplaying) 
     [[NSDistributedNotificationCenter defaultCenter]removeObserver:self];
+}
+- (void) onServerDoneLoading:(SMServer<SMServerPluginsAllowedMethodsProtocol>*)server {
+    isReady=true;
 }
 
 -(void)_postNowPlaying {
@@ -105,6 +110,9 @@ static bool postNowplaying=false; //auto nowplaying
 - (void) onServerMessage: (NSString*)messg{
     if (![messg contains:@"[Minecraft] "]) {
         return; //not chat, no interest for us
+    }
+    if (!isReady) {
+        return; //dont spam the console if iTunes not running because of the server debug msgs
     }
     iTunesApplication*app = [SBApplication applicationWithBundleIdentifier:@"com.apple.iTunes"];
     if(![app isRunning]){ //No iTunes running here

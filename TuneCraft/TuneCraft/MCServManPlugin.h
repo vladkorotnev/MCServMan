@@ -28,6 +28,7 @@
 - (void) onServerStart:(SMServer<SMServerPluginsAllowedMethodsProtocol>*)server; //on server start
 - (void) onServerStop:(SMServer<SMServerPluginsAllowedMethodsProtocol>*)server; //on server stop
 - (void) onServerMessage: (NSString*)msg; //on new line in console
+- (void) onServerDoneLoading:(SMServer<SMServerPluginsAllowedMethodsProtocol>*)server;
 @end
 
 
