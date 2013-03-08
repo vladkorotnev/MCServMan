@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82E8133716E614A6003340B9 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E8133616E614A6003340B9 /* CoreFoundation.framework */; };
+		82E8133D16E614A6003340B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82E8133B16E614A6003340B9 /* InfoPlist.strings */; };
+		82E8134C16E614B8003340B9 /* TuneCraftMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E8134B16E614B8003340B9 /* TuneCraftMain.m */; };
+		82E8135316E61B97003340B9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E8135216E61B97003340B9 /* Cocoa.framework */; };
+		82E8135716E61DBC003340B9 /* TuneCraftSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E8135516E61DBC003340B9 /* TuneCraftSettingViewController.m */; };
+		82E8135816E61DBC003340B9 /* TuneCraftSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82E8135616E61DBC003340B9 /* TuneCraftSettingViewController.xib */; };
+		82E8137516E625C5003340B9 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E8137416E625C5003340B9 /* ScriptingBridge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8238F21916E8B0EA0086E35E /* MCServManPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCServManPlugin.h; sourceTree = "<group>"; };
+		82E8133316E614A6003340B9 /* TuneCraft.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuneCraft.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E8133616E614A6003340B9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		82E8133A16E614A6003340B9 /* TuneCraft-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TuneCraft-Info.plist"; sourceTree = "<group>"; };
+		82E8133C16E614A6003340B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82E8133E16E614A6003340B9 /* TuneCraft-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TuneCraft-Prefix.pch"; sourceTree = "<group>"; };
+		82E8134A16E614B8003340B9 /* TuneCraftMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuneCraftMain.h; sourceTree = "<group>"; };
+		82E8134B16E614B8003340B9 /* TuneCraftMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuneCraftMain.m; sourceTree = "<group>"; };
+		82E8135216E61B97003340B9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		82E8135416E61DBC003340B9 /* TuneCraftSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuneCraftSettingViewController.h; sourceTree = "<group>"; };
+		82E8135516E61DBC003340B9 /* TuneCraftSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuneCraftSettingViewController.m; sourceTree = "<group>"; };
+		82E8135616E61DBC003340B9 /* TuneCraftSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TuneCraftSettingViewController.xib; sourceTree = "<group>"; };
+		82E8137316E6246E003340B9 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		82E8137416E625C5003340B9 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82E8133016E614A6003340B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E8137516E625C5003340B9 /* ScriptingBridge.framework in Frameworks */,
+				82E8135316E61B97003340B9 /* Cocoa.framework in Frameworks */,
+				82E8133716E614A6003340B9 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82E8132A16E614A6003340B9 = {
+			isa = PBXGroup;
+			children = (
+				82E8137416E625C5003340B9 /* ScriptingBridge.framework */,
+				82E8135216E61B97003340B9 /* Cocoa.framework */,
+				82E8133816E614A6003340B9 /* TuneCraft */,
+				82E8133516E614A6003340B9 /* Frameworks */,
+				82E8133416E614A6003340B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82E8133416E614A6003340B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82E8133316E614A6003340B9 /* TuneCraft.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82E8133516E614A6003340B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82E8133616E614A6003340B9 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82E8133816E614A6003340B9 /* TuneCraft */ = {
+			isa = PBXGroup;
+			children = (
+				82E8133916E614A6003340B9 /* Supporting Files */,
+			);
+			path = TuneCraft;
+			sourceTree = "<group>";
+		};
+		82E8133916E614A6003340B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8238F21916E8B0EA0086E35E /* MCServManPlugin.h */,
+				82E8137316E6246E003340B9 /* iTunes.h */,
+				82E8133A16E614A6003340B9 /* TuneCraft-Info.plist */,
+				82E8133B16E614A6003340B9 /* InfoPlist.strings */,
+				82E8133E16E614A6003340B9 /* TuneCraft-Prefix.pch */,
+				82E8134A16E614B8003340B9 /* TuneCraftMain.h */,
+				82E8134B16E614B8003340B9 /* TuneCraftMain.m */,
+				82E8135416E61DBC003340B9 /* TuneCraftSettingViewController.h */,
+				82E8135516E61DBC003340B9 /* TuneCraftSettingViewController.m */,
+				82E8135616E61DBC003340B9 /* TuneCraftSettingViewController.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82E8133216E614A6003340B9 /* TuneCraft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E8134116E614A6003340B9 /* Build configuration list for PBXNativeTarget "TuneCraft" */;
+			buildPhases = (
+				82E8132F16E614A6003340B9 /* Sources */,
+				82E8133016E614A6003340B9 /* Frameworks */,
+				82E8133116E614A6003340B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuneCraft;
+			productName = TuneCraft;
+			productReference = 82E8133316E614A6003340B9 /* TuneCraft.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82E8132B16E614A6003340B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Vladislav Korotnev";
+			};
+			buildConfigurationList = 82E8132E16E614A6003340B9 /* Build configuration list for PBXProject "TuneCraft" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82E8132A16E614A6003340B9;
+			productRefGroup = 82E8133416E614A6003340B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82E8133216E614A6003340B9 /* TuneCraft */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82E8133116E614A6003340B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E8133D16E614A6003340B9 /* InfoPlist.strings in Resources */,
+				82E8135816E61DBC003340B9 /* TuneCraftSettingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82E8132F16E614A6003340B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E8134C16E614B8003340B9 /* TuneCraftMain.m in Sources */,
+				82E8135716E61DBC003340B9 /* TuneCraftSettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82E8133B16E614A6003340B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82E8133C16E614A6003340B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82E8133F16E614A6003340B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82E8134016E614A6003340B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82E8134216E614A6003340B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TuneCraft/TuneCraft-Prefix.pch";
+				INFOPLIST_FILE = "TuneCraft/TuneCraft-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		82E8134316E614A6003340B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TuneCraft/TuneCraft-Prefix.pch";
+				INFOPLIST_FILE = "TuneCraft/TuneCraft-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82E8132E16E614A6003340B9 /* Build configuration list for PBXProject "TuneCraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E8133F16E614A6003340B9 /* Debug */,
+				82E8134016E614A6003340B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82E8134116E614A6003340B9 /* Build configuration list for PBXNativeTarget "TuneCraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E8134216E614A6003340B9 /* Debug */,
+				82E8134316E614A6003340B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82E8132B16E614A6003340B9 /* Project object */;
+}

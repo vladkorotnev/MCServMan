@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allow-flight</key>
+	<dict>
+		<key>dsc</key>
+		<string>Allows users to use flight on your server while in Survival mode, if they have a mod that provides flight installed.</string>
+		<key>type</key>
+		<string>bool</string>
+	</dict>
+	<key>allow-nether</key>
+	<dict>
+		<key>dsc</key>
+		<string>Allows players to travel to the Nether.</string>
+		<key>type</key>
+		<string>bool</string>
+	</dict>
+	<key>difficulty</key>
+	<dict>
+		<key>dsc</key>
+		<string>Defines the difficulty (such as damage dealt by mobs and the way hunger and poison affects players) of the server.
+0 - Peaceful
+1 - Easy
+2 - Normal
+3 - Hard</string>
+		<key>type</key>
+		<string>strof;0;1;2;3</string>
+	</dict>
+	<key>enable-query</key>
+	<dict>
+		<key>dsc</key>
+		<string>Enables GameSpy4 protocol server listener. Used to get information about server.</string>
+		<key>type</key>
+		<string>bool</string>
+	</dict>
+	<key>enable-rcon</key>
+	<dict>
+		<key>dsc</key>
+		<string>Enables remote access to the server console.</string>
+		<key>type</key>
+		<string>bool</string>
+	</dict>
+	<key>enable-command-block</key>
+	<dict>
+		<key>dsc</key>
+		<string>Enables Command Blocks</string>
+		<key>type</key>
+		<string>bool</string>
+	</dict>
+	<key>gamemode</key>
+	<dict>
+		<key>dsc</key>
+		<string>Defines the mode of gameplay.
+0 - Survival
+1 - Creative
+2 - Adventure (only in snapshot 12w22a, and above)</string>
+		<key>type</key>
+		<string>strof;0;1;2</string>
+	</dict>
+	<key>generate-structures</key>
+	<dict>
+		<key>dsc</key>
+		<string>Defines whether structures (such as NPC Villages) will be generated.</string>
+		<key>type</key>
+		<string>bool</string>
+	</dict>
+	<key>generator-settings</key>
+	<dict>
+		<key>dsc</key>
+		<string>The settings used to customize Superflat world generation. See Superflat for possible settings and examples.</string>
+		<key>type</key>
+		<string>str</string>
+	</dict>
+	<key>hardcore</key>
+	<dict>
+		<key>dsc</key>
+		<string>If set to true, players will be permanently banned if they die.</string>
+		<key>type</key>
+		<string>bool</string>
+	</dict>
+	<key>level-seed</key>
+	<dict>
+		<key>dsc</key>
+		<string>Add a seed for your world, as in Singleplayer.</string>
+		<key>type</key>
+		<string>str</string>
+	</dict>
+	<key>level-type</key>
+	<dict>
+		<key>dsc</key>
+		<string>Determines the type of map that is generated.
+DEFAULT - Standard world with hills, valleys, water, etc.
+FLAT - A flat world with no features, meant for building.
+LARGEBIOMES - Same as default but all biomes are larger.</string>
+		<key>type</key>
+		<string>strof;DEFAULT;FLAT;LARGEBIOMES</string>
+	</dict>
+	<key>max-build-height</key>
+	<dict>
+		<key>dsc</key>
+		<string>The maximum height in which building is allowed. Terrain may still naturally generate above a low height limit.</string>
+		<key>type</key>
+		<string>int;0-65534</string>
+	</dict>
+	<key>max-players</key>
+	<dict>
+		<key>dsc</key>
+		<string>The maximum number of players that can play on the server at the same time. Extremely large values for this field result in the client-side user list being broken.</string>
+		<key>type</key>
+		<string>int;0-2147483647</string>
+	</dict>
+	<key>motd</key>
+	<dict>
+		<key>dsc</key>
+		<string>This is the message that is displayed in the server list of the client, below the name.
+The MOTD does support color codes and formatting codes.
+If the MOTD is over 59 characters, the server list will likely report a communication error.</string>
+		<key>type</key>
+		<string>str</string>
+	</dict>
+	<key>online-mode</key>
+	<dict>
+		<key>dsc</key>
+		<string>Server checks connecting players against minecraft&apos;s account database. </string>
+		<key>type</key>
+		<string>bool</string>
+	</dict>
+	<key>pvp</key>
+	<dict>
+		<key>dsc</key>
+		<string>Enable PvP on the server. Players shooting themselves with arrows will only receive damage if PvP is enabled.
+Note: Indirect damage sources spawned by players (such as lava, fire, TNT and to some extent water, sand and gravel) will still deal damage to other players.</string>
+		<key>type</key>
+		<string>bool</string>
+	</dict>
+	<key>query.port</key>
+	<dict>
+		<key>dsc</key>
+		<string>Sets the port for the query server (see enable-query).</string>
+		<key>type</key>
+		<string>int;1-65534</string>
+	</dict>
+	<key>rcon.password</key>
+	<dict>
+		<key>dsc</key>
+		<string>Sets the password to rcon</string>
+		<key>type</key>
+		<string>str</string>
+	</dict>
+	<key>rcon.port</key>
+	<dict>
+		<key>dsc</key>
+		<string>Sets the port to rcon.</string>
+		<key>type</key>
+		<string>int;1-65534</string>
+	</dict>
+	<key>server-ip</key>
+	<dict>
+		<key>dsc</key>
+		<string>Set this if you want the server to bind to a particular IP. It is strongly recommended that you leave server-ip blank!
+Set to blank, or the IP you want your server to run(listen) on.</string>
+		<key>type</key>
+		<string>str</string>
+	</dict>
+	<key>server-port</key>
+	<dict>
+		<key>dsc</key>
+		<string>Changes the port the server is hosting(listening) on. This port must be forwarded if the server is hosted in a network using NAT (If you have a home router/firewall).</string>
+		<key>type</key>
+		<string>int;1-65534</string>
+	</dict>
+	<key>snooper-enabled</key>
+	<dict>
+		<key>dsc</key>
+		<string>Since 1.3 pre-release, sets whether the server sends snoop data regularly to http://snoop.minecraft.net.</string>
+		<key>type</key>
+		<string>bool</string>
+	</dict>
+	<key>spawn-animals</key>
+	<dict>
+		<key>dsc</key>
+		<string>Determines if Animals will be able to spawn.
+Tip: if you have major lag, turn this off/set to false.</string>
+		<key>type</key>
+		<string>bool</string>
+	</dict>
+	<key>spawn-monsters</key>
+	<dict>
+		<key>dsc</key>
+		<string>Determines if monsters will be spawned.
+This does nothing if difficulty = 0 (peaceful) Unless your difficulty is not set to 0, when a monster can still spawn from a Monster Spawner. Tip: if you have major lag, turn this off/set to false.</string>
+		<key>type</key>
+		<string>bool</string>
+	</dict>
+	<key>spawn-npcs</key>
+	<dict>
+		<key>dsc</key>
+		<string>Determines if non-player characters (NPCs) will be spawned.</string>
+		<key>type</key>
+		<string>bool</string>
+	</dict>
+	<key>spawn-protection</key>
+	<dict>
+		<key>dsc</key>
+		<string>Determines the radius of the spawn protection. Note: Setting this to 0 will not disable spawn protection. 0 will protect the single block at the spawn point. 1 will protect a 3x3 area centered on the spawn point. 2 will protect 5x5, 3 will protect 7x7, etc. </string>
+		<key>type</key>
+		<string>int;0-65534</string>
+	</dict>
+	<key>texture-pack</key>
+	<dict>
+		<key>dsc</key>
+		<string>Server prompts client to download texture pack upon join. IMPORTANT: This link must be a direct link to the actual texture pack .zip file.</string>
+		<key>type</key>
+		<string>str</string>
+	</dict>
+	<key>view-distance</key>
+	<dict>
+		<key>dsc</key>
+		<string>Sets the amount of world data the server sends the client. It determines the server-side viewing distance. The &quot;Far&quot; viewing distance is 9. 10 is the default/recommended. Tip: if you have major lag, reduce this value.</string>
+		<key>type</key>
+		<string>int;3-15</string>
+	</dict>
+	<key>white-list</key>
+	<dict>
+		<key>dsc</key>
+		<string>Enables a white list on the server.
+With a white list enabled, users not on the white list will be unable to connect. Intended for private servers, such as those for real-life friends or strangers carefully selected via an application process, for example.
+Note - Ops are automatically white listed, and there is no need to add them to the whitelist.</string>
+		<key>type</key>
+		<string>bool</string>
+	</dict>
+</dict>
+</plist>
