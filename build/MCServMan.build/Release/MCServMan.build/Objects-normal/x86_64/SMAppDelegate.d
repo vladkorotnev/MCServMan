@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.m \
+  /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.h \
+  /Users/tigra/Desktop/Coding/MCServMan/MCServMan/Defines.h \
+  /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASIHTTPRequest.h \
+  /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASIHTTPRequestConfig.h \
+  /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASIHTTPRequestDelegate.h \
+  /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASIProgressDelegate.h \
+  /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASICacheDelegate.h \
+  /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMServer.h \
+  /Users/tigra/Desktop/Coding/MCServMan/MCServMan/MFTask.h \
+  /Users/tigra/Desktop/Coding/MCServMan/MCServMan/MFTaskDelegateProtocol.h \
+  /Users/tigra/Desktop/Coding/MCServMan/MCServMan/MCServManPlugin.h \
+  /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfig.h \
+  /Users/tigra/Desktop/Coding/MCServMan/MCServMan/Sparkle.framework/Headers/Sparkle.h \
+  /Users/tigra/Desktop/Coding/MCServMan/MCServMan/Sparkle.framework/Headers/SUUpdater.h \
+  /Users/tigra/Desktop/Coding/MCServMan/MCServMan/Sparkle.framework/Headers/SUVersionComparisonProtocol.h \
+  /Users/tigra/Desktop/Coding/MCServMan/MCServMan/Sparkle.framework/Headers/SUAppcast.h \
+  /Users/tigra/Desktop/Coding/MCServMan/MCServMan/Sparkle.framework/Headers/SUAppcastItem.h \
+  /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.h

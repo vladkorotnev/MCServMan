@@ -12,6 +12,7 @@
 #import "SMServer.h"
 #import "MCServManPlugin.h"
 #import "SMMinecraftConfig.h"
+#import "Sparkle.framework/Headers/Sparkle.h"
 @interface SMAppDelegate : NSObject <NSApplicationDelegate,ASIHTTPRequestDelegate,MinecraftServerDelegate,SMAppDelegatePluginsAllowedProtocol>{
     ASIHTTPRequest*currentDownload;
     NSMutableArray*loadedPlugins;

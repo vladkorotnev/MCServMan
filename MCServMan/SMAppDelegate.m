@@ -214,6 +214,9 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    SUUpdater*u= [SUUpdater sharedUpdater];
+    
+    [u setFeedURL:[NSURL URLWithString:@"http://vladkorotnev.github.com/soft/mcsm/sparkle.xml"]];
    
     // Load plugins
     NSBundle *appBundle;

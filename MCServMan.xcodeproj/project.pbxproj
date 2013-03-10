@@ -17,6 +17,10 @@
 		8255D4CA16E5083C00BDFD7D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8255D4C816E5083C00BDFD7D /* MainMenu.xib */; };
 		82AFF4BA16E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AFF4B816E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.m */; };
 		82AFF4BB16E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AFF4B916E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.xib */; };
+		82CF5F9F16EC517500939E2C /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CF5F9E16EC517500939E2C /* Sparkle.framework */; };
+		82CF5FA216EC554600939E2C /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 82CF5F9E16EC517500939E2C /* Sparkle.framework */; };
+		82CF5FA616EC584C00939E2C /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 82CF5FA516EC584C00939E2C /* dsa_pub.pem */; };
+		82CF5FA916EC5CA400939E2C /* sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 82CF5FA816EC5CA400939E2C /* sparkle.png */; };
 		82E8130116E5D0EB003340B9 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E812EC16E5D0EB003340B9 /* ASIDataCompressor.m */; };
 		82E8130216E5D0EB003340B9 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E812EE16E5D0EB003340B9 /* ASIDataDecompressor.m */; };
 		82E8130316E5D0EB003340B9 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E812F016E5D0EB003340B9 /* ASIDownloadCache.m */; };
@@ -57,6 +61,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		82CF5FA116EC554200939E2C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				82CF5FA216EC554600939E2C /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82E8134D16E61504003340B9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,6 +104,9 @@
 		82AFF4B716E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMMinecraftConfiguratorPanel.h; sourceTree = "<group>"; };
 		82AFF4B816E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMMinecraftConfiguratorPanel.m; sourceTree = "<group>"; };
 		82AFF4B916E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMMinecraftConfiguratorPanel.xib; sourceTree = "<group>"; };
+		82CF5F9E16EC517500939E2C /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		82CF5FA516EC584C00939E2C /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		82CF5FA816EC5CA400939E2C /* sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparkle.png; sourceTree = "<group>"; };
 		82E812E716E5D03F003340B9 /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
 		82E812EA16E5D0EB003340B9 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
 		82E812EB16E5D0EB003340B9 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
@@ -139,6 +156,7 @@
 				82E8130F16E5D4B3003340B9 /* libxml2.2.dylib in Frameworks */,
 				82E8131016E5D4B3003340B9 /* libxml2.dylib in Frameworks */,
 				8255D4B416E5083B00BDFD7D /* Cocoa.framework in Frameworks */,
+				82CF5F9F16EC517500939E2C /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,7 +208,9 @@
 				82AFF4B716E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.h */,
 				82AFF4B816E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.m */,
 				82AFF4B916E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.xib */,
+				82CF5FA816EC5CA400939E2C /* sparkle.png */,
 				8255D4C516E5083B00BDFD7D /* SMAppDelegate.h */,
+				82CF5FA516EC584C00939E2C /* dsa_pub.pem */,
 				8255D4C616E5083B00BDFD7D /* SMAppDelegate.m */,
 				8238F21B16E8B3180086E35E /* MCServManPlugin.h */,
 				821D964516E7189000681714 /* SMMinecraftConfig.h */,
@@ -211,6 +231,7 @@
 				82E8131316E5D4C0003340B9 /* libz.dylib */,
 				82E8131116E5D4BA003340B9 /* SystemConfiguration.framework */,
 				82E8130D16E5D4B3003340B9 /* libxml2.2.dylib */,
+				82CF5F9E16EC517500939E2C /* Sparkle.framework */,
 				82E8130E16E5D4B3003340B9 /* libxml2.dylib */,
 				8255D4BB16E5083B00BDFD7D /* MCServMan-Info.plist */,
 				8255D4BC16E5083B00BDFD7D /* InfoPlist.strings */,
@@ -283,6 +304,7 @@
 				8255D4AD16E5083B00BDFD7D /* Frameworks */,
 				8255D4AE16E5083B00BDFD7D /* Resources */,
 				82E8134D16E61504003340B9 /* CopyFiles */,
+				82CF5FA116EC554200939E2C /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -351,6 +373,8 @@
 				82E8130B16E5D0EB003340B9 /* Tests in Resources */,
 				821D964916E71A1A00681714 /* MCSettingKeys.plist in Resources */,
 				82AFF4BB16E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.xib in Resources */,
+				82CF5FA616EC584C00939E2C /* dsa_pub.pem in Resources */,
+				82CF5FA916EC5CA400939E2C /* sparkle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +502,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MCServMan\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MCServMan/MCServMan-Prefix.pch";
 				INFOPLIST_FILE = "MCServMan/MCServMan-Info.plist";
@@ -491,6 +519,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MCServMan\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MCServMan/MCServMan-Prefix.pch";
 				INFOPLIST_FILE = "MCServMan/MCServMan-Info.plist";
