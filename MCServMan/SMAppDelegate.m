@@ -370,7 +370,7 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
 }
 
 - (IBAction)reDown:(id)sender { //redownload
-    if (![FM fileExistsAtPath:OUR_FOLDER isDirectory:true]) {
+    if (![FM fileExistsAtPath:OUR_FOLDER]) {
         NSError*error=nil;
         [FM createDirectoryAtPath:OUR_FOLDER withIntermediateDirectories:YES attributes:nil error:&error];
         if(error!=nil){
