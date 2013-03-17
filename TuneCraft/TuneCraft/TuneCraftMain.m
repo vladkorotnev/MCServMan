@@ -109,7 +109,7 @@ static bool isReady=false;
 
 
 - (void) onServerMessage: (NSString*)messg{
-    if (![messg contains:@"[Minecraft] "]) {
+    if (![messg contains:@"[Minecraft-Server] "]) {
         return; //not chat, no interest for us
     }
     if (!isReady) {
@@ -120,7 +120,7 @@ static bool isReady=false;
         return;
     }
     [self readSettings];
-    NSString*msg = [[messg componentsSeparatedByString:@"[Minecraft] "]objectAtIndex:1]; //strip time and shit
+    NSString*msg = [[messg componentsSeparatedByString:@"[Minecraft-Server] "]objectAtIndex:1]; //strip time and shit
     if ([msg contains:@"itunes"]&& [msg contains:[NSString stringWithFormat:@"<%@>",username]] ) {
         //user help
         [serv sendServerMessage:@"say Usage:" ];
@@ -173,7 +173,7 @@ static bool isReady=false;
         int i = 0;
         // list numbered search results
         for (iTunesTrack*t in findings) {
-            [self sendChat:[NSString stringWithFormat:@"[%i] %@ by %@",i,t.name,t.artist]];
+            [self sendPM:[NSString stringWithFormat:@"[%i] %@ by %@",i,t.name,t.artist]];
             [res addObject:t];
             i++;
         }

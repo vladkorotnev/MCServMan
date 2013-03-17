@@ -59,7 +59,7 @@ static bool didLaunchServerForWorldCreation;
             [serverConnection sendServerMessage:@"stop"]; //if the sole purpose was to create the world and it's done, then stop it and proceed
             return;
         }
-        NSLog(@"OnDone");
+       // NSLog(@"OnDone");
         NSBeep();
         if (self.plugins.state == 1) {
             for (NSObject<MCServManPlugin>*plug in loadedPlugins) { //tell plugins about the Done
