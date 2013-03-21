@@ -231,13 +231,9 @@ objectValueForTableColumn:(NSTableColumn *) aTableColumn
     [self.worldList selectItemWithTitle:[currentConfig readSetting:@"level-name"]];
 }
 
-- (void) pluginLog:(NSString*)mess {
-    // i knew i will use this one day
-    NSString*sym =  [NSThread callStackSymbols][1];
-   NSString *class=  [[sym componentsSeparatedByString:@"-["][1]componentsSeparatedByString:@" "][0];
-    Class cls =  NSClassFromString(class);
+- (void) plugin:(NSString*)plugin log:(NSString*)mess {
  
-    [self _log:[NSString stringWithFormat:@"== %@ == %@ == \n",[cls pluginName],mess]];
+    [self _log:[NSString stringWithFormat:@"== %@ == %@ == \n",plugin,mess]];
 }
 - (void)_log:(NSString*)what{ //logging to console method (plugin allowed)
     NSClipView* cv = self.logField.enclosingScrollView.contentView;

@@ -34,19 +34,19 @@ static SMServer<SMServerPluginsAllowedMethodsProtocol>*srv = nil;
     return self.view;
 }
 - (void) onLoad:(SMAppDelegate<SMAppDelegatePluginsAllowedProtocol>*)delegate {
-    [delegate pluginLog:@"Example onLoad event"];
+    [delegate plugin:@"Dummy Plugin" log:@"Example onLoad event"];
     del=delegate;
 }
 - (void) onSettingShow{
-    [del pluginLog:@"Example onSettingsShow"];
+    [del plugin:@"Dummy Plugin" log:@"Example onSettingsShow"];
 }
 - (void) onServerStart:(SMServer<SMServerPluginsAllowedMethodsProtocol>*)server {
     srv=server;
-    [del pluginLog:@"Example onStart"];
+    [del plugin:@"Dummy Plugin" log:@"Example onStart"];
 }
 - (void) onServerStop:(SMServer<SMServerPluginsAllowedMethodsProtocol>*)server{
     srv=nil;
-    [del pluginLog:@"Example onStop"];
+    [del plugin:@"Dummy Plugin" log:@"Example onStop"];
 }
 - (void) onServerMessage: (NSString*)msg{}
 
@@ -57,6 +57,6 @@ static SMServer<SMServerPluginsAllowedMethodsProtocol>*srv = nil;
     [srv sendServerMessage:[NSString stringWithFormat:@"say See you later %@",username]];
 }
 -(void)onChat:(NSString *)message sentBy:(NSString *)user {
- //  [del pluginLog:[NSString stringWithFormat:@"\"%@\", said %@",message,user]];
+ //  [del plugin:@"Dummy Plugin" log:[NSString stringWithFormat:@"\"%@\", said %@",message,user]];
 }
 @end

@@ -76,7 +76,7 @@ static bool isReady=false;
     [self readSettings];
     
     if (postNowplaying) {
-        [app pluginLog:@"Subscribed to iTunes playerInfo"];
+        [app plugin:@"TuneCraft" log:@"Subscribed to iTunes playerInfo"];
         [[NSDistributedNotificationCenter defaultCenter]addObserver:self selector:@selector(_postNowPlaying) name:@"com.apple.iTunes.playerInfo" object:nil]; //auto nowplaying
     }
 }
@@ -88,7 +88,7 @@ static bool isReady=false;
 }
 - (void) onServerDoneLoading:(SMServer<SMServerPluginsAllowedMethodsProtocol>*)server {
     isReady=true;
-    [app pluginLog:[NSString stringWithFormat:@"Ready to rock for %@",username]];
+    [app plugin:@"TuneCraft" log:[NSString stringWithFormat:@"Ready to rock for %@",username]];
 }
 
 -(void)_postNowPlaying {

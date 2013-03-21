@@ -15,7 +15,7 @@
 @end
 
 @protocol SMAppDelegatePluginsAllowedProtocol
-- (void) pluginLog:(NSString*)mess; //only this allowed for plugins
+- (void) plugin:(NSString*)plugin log:(NSString*)mess ; //only this allowed for plugins
 @end
 
 @protocol MCServManPlugin <NSObject>

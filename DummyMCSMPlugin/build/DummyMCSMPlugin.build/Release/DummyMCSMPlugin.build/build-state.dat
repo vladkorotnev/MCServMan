@@ -39,9 +39,9 @@ t1363843324
 s302
 
 N/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/DummyPluginViewController.m
-c00000000514A9B260000000000000779
-t1363843878
-s1913
+c00000000514AAEBB00000000000007CE
+t1363848891
+s1998
 
 N/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/DummyPluginViewController.xib
 c00000000514A9F8600000000000024EE
@@ -49,9 +49,9 @@ t1363844998
 s9454
 
 N/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/MCServManPlugin.h
-c00000000514A98C30000000000000535
-t1363843267
-s1333
+c00000000514AAE5B0000000000000548
+t1363848795
+s1352
 
 N/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/NSCreeper.png
 c00000000514A9DEC0000000000000F74
@@ -69,15 +69,15 @@ t1363845701
 s162
 
 N/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/Objects-normal/x86_64/DummyPluginViewController.o
-t1363845702
-s33760
+t1363848850
+s33896
 
 N/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle
-t1363845702
+t1363848850
 s102
 
 N/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle.dSYM
-t1363845702
+t1363848850
 s102
 
 N/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/Info.plist
@@ -85,7 +85,7 @@ t1363845701
 s1317
 
 N/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin
-t1363845702
+t1363848850
 s15940
 
 N/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/Resources/DummyPluginViewController.nib
@@ -111,11 +111,11 @@ s995
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies81436ccbdbfab641^85ce77cbdbfab641^---0#1#0#--18"Check dependencies36"30EBA4B8-79B4-4077-89BF-4584C8D69D0D-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb6149c55e6fab641^60cca655e6fab641^---0#1#0#--18"Check dependencies36"09C85E1D-D05D-407F-92BB-AB314C8B2E4F-
 
 CCompileC build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/Objects-normal/x86_64/DummyPluginViewController.o /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/DummyPluginViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s385538502.185481
-e385538502.237282
+s385541717.672216
+e385541717.718869
 r1
 xCompileC
 xbuild/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/Objects-normal/x86_64/DummyPluginViewController.o
@@ -124,7 +124,7 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/DummyPluginViewController.md1922fc6d9fab641^1fbe3cc6d9fab641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/DummyPluginViewController.m0000000000000000^3483"CompileC build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/Objects-normal/x86_64/DummyPluginViewController.o DummyMCSMPlugin/DummyPluginViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/DummyMCSMPlugin-generated-files.hmap -I/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/DummyMCSMPlugin-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/DummyMCSMPlugin-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/DummyMCSMPlugin-project-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/DerivedSources -F/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DummyMCSMPlugin-Prefix-bkpxejsxykgcyyeyhbmybrdqiafo/DummyMCSMPlugin-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/Objects-normal/x86_64/DummyPluginViewController.d --serialize-diagnostics /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/Objects-normal/x86_64/DummyPluginViewController.dia -c /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/DummyPluginViewController.m -o /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/Objects-normal/x86_64/DummyPluginViewController.o36"A76C9A9C-F8B9-4C2C-B160-7FAE78B9E119-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/DummyPluginViewController.mc537ac55e6fab641^3507b855e6fab641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/DummyPluginViewController.m0000000000000000^3483"CompileC build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/Objects-normal/x86_64/DummyPluginViewController.o DummyMCSMPlugin/DummyPluginViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/DummyMCSMPlugin-generated-files.hmap -I/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/DummyMCSMPlugin-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/DummyMCSMPlugin-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/DummyMCSMPlugin-project-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/DerivedSources -F/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DummyMCSMPlugin-Prefix-bkpxejsxykgcyyeyhbmybrdqiafo/DummyMCSMPlugin-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/Objects-normal/x86_64/DummyPluginViewController.d --serialize-diagnostics /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/Objects-normal/x86_64/DummyPluginViewController.dia -c /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/DummyPluginViewController.m -o /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/Objects-normal/x86_64/DummyPluginViewController.o36"134F8708-6B39-423C-8C41-27F6E3FAED69-
 
 CCompileXIB /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/DummyPluginViewController.xib
 s385538502.377088
@@ -153,23 +153,23 @@ xbuild/Release/DummyMCSMPlugin.bundle/Contents/Resources/NSCreeper.png
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Release/DummyMCSMPlugin.bundle/Contents/Resources/NSCreeper.png919c60c6d9fab641^ed0e61c6d9fab641^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/Resources/NSCreeper.png000000000080d041^604"CpResource DummyMCSMPlugin/NSCreeper.png build/Release/DummyMCSMPlugin.bundle/Contents/Resources/NSCreeper.png    cd /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/NSCreeper.png /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/Resources36"B1A35477-E9D5-4EB3-94F8-EFA3DB0627E0-
 
 CGenerateDSYMFile /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle.dSYM /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin
-s385538502.286851
-e385538502.369136
+s385541717.768590
+e385541717.780615
 r1
 xGenerateDSYMFile
 x/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle.dSYM
 x/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Generate /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle.dSYM918049c6d9fab641^a27f5ec6d9fab641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle.dSYM000000000080d041^509"GenerateDSYMFile build/Release/DummyMCSMPlugin.bundle.dSYM build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin    cd /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin -o /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle.dSYM36"FC02C7BE-6DEB-45BD-B6AA-4E1AE6168E85-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Generate /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle.dSYMa5d9c455e6fab641^bbd5c755e6fab641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle.dSYM/0000000000000000^509"GenerateDSYMFile build/Release/DummyMCSMPlugin.bundle.dSYM build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin    cd /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin -o /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle.dSYM36"35405196-4AA3-481A-93AF-CDF09D046FA1-
 
 CLd /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin normal x86_64
-s385538502.244077
-e385538502.280083
+s385541717.725328
+e385541717.757176
 r1
 xLd
 x/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin
 xnormal
 xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Link /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin378c3ec6d9fab641^31b347c6d9fab641^---0#0#0#--915"Ld build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin normal x86_64    cd /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release -filelist /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/Objects-normal/x86_64/DummyMCSMPlugin.LinkFileList -mmacosx-version-min=10.8 -fobjc-link-runtime -framework Cocoa -o /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin36"DCB1E6D0-3E44-4BD1-862B-41F3126E8FC5-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Link /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin16bfb955e6fab641^c3d5c155e6fab641^---0#0#0#--915"Ld build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin normal x86_64    cd /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release -filelist /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/Objects-normal/x86_64/DummyMCSMPlugin.LinkFileList -mmacosx-version-min=10.8 -fobjc-link-runtime -framework Cocoa -o /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin36"B8E0037E-9472-45D6-A62C-41259C5019F4-
 
 CProcessInfoPlistFile /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/Info.plist DummyMCSMPlugin/DummyMCSMPlugin-Info.plist
 s385538501.502580
@@ -194,10 +194,10 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Precompile DummyMCSMPlugin/DummyMCSMPlugin-Prefix.pch249783c5d9fab641^cbbc2dc6d9fab641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/DummyMCSMPlugin-Prefix.pch0000000000000000^3418"ProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DummyMCSMPlugin-Prefix-bkpxejsxykgcyyeyhbmybrdqiafo/DummyMCSMPlugin-Prefix.pch.pth DummyMCSMPlugin/DummyMCSMPlugin-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/DummyMCSMPlugin-generated-files.hmap -I/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/DummyMCSMPlugin-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/DummyMCSMPlugin-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/DummyMCSMPlugin-project-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/DerivedSources -F/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release --serialize-diagnostics /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DummyMCSMPlugin-Prefix-bkpxejsxykgcyyeyhbmybrdqiafo/DummyMCSMPlugin-Prefix.pch.dia -c /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/DummyMCSMPlugin-Prefix.pch -o /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DummyMCSMPlugin-Prefix-bkpxejsxykgcyyeyhbmybrdqiafo/DummyMCSMPlugin-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DummyMCSMPlugin-Prefix-bkpxejsxykgcyyeyhbmybrdqiafo/DummyMCSMPlugin-Prefix.pch.d36"A8AF915A-6C03-48C2-AC97-0D05BAEBBE5C-
 
 CTouch /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle
-s385538502.743762
-e385538502.751099
+s385541717.796614
+e385541717.801588
 r1
 xTouch
 x/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Touch /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle0874bec6d9fab641^6858c0c6d9fab641^---0#0#0#--217"Touch build/Release/DummyMCSMPlugin.bundle    cd /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin    /usr/bin/touch -c /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle36"5D0C1B47-6FD8-4A22-90BC-EEB2E3FA056B-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Touch /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundlefcfccb55e6fab641^bd34cd55e6fab641^---0#0#0#--217"Touch build/Release/DummyMCSMPlugin.bundle    cd /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin    /usr/bin/touch -c /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle36"39FDB397-B8BB-4744-860D-23107E82C2F5-
 
