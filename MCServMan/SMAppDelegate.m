@@ -520,6 +520,9 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
     return NSTerminateNow;
 }
 -(void) notify:(NSString*)wat {
+    if (NSClassFromString(@"NSUserNotification") == nil || NSClassFromString(@"NSUserNotificationCenter") == nil ) {
+        return;
+    }
     //Initalize new notification
     NSUserNotification *notification = [[NSUserNotification alloc] init];
     //Set the title of the notification

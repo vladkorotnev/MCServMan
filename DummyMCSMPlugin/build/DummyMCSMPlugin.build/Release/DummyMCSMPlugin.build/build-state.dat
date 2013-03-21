@@ -7,9 +7,9 @@ cProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501
 cCompileC build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/Objects-normal/x86_64/DummyPluginViewController.o /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/DummyPluginViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin normal x86_64
 cGenerateDSYMFile /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle.dSYM /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin
-cCopyStringsFile /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/Resources/en.lproj/InfoPlist.strings DummyMCSMPlugin/en.lproj/InfoPlist.strings
-cCompileXIB /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/DummyPluginViewController.xib
 cCpResource DummyMCSMPlugin/NSCreeper.png build/Release/DummyMCSMPlugin.bundle/Contents/Resources/NSCreeper.png
+cCompileXIB /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/DummyPluginViewController.xib
+cCopyStringsFile /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/Resources/en.lproj/InfoPlist.strings DummyMCSMPlugin/en.lproj/InfoPlist.strings
 cTouch /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
@@ -69,15 +69,15 @@ t1363845701
 s162
 
 N/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/Objects-normal/x86_64/DummyPluginViewController.o
-t1363848850
+t1363848917
 s33896
 
 N/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle
-t1363848850
+t1363848917
 s102
 
 N/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle.dSYM
-t1363848850
+t1363848917
 s102
 
 N/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/Info.plist
@@ -85,7 +85,7 @@ t1363845701
 s1317
 
 N/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin
-t1363848850
+t1363848917
 s15940
 
 N/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/Resources/DummyPluginViewController.nib
@@ -111,7 +111,7 @@ s995
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb6149c55e6fab641^60cca655e6fab641^---0#1#0#--18"Check dependencies36"09C85E1D-D05D-407F-92BB-AB314C8B2E4F-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd65604d2e7fab641^85ee0ed2e7fab641^---0#1#0#--18"Check dependencies36"ACBF7C6E-4ED6-47ED-B634-75A2B0955EBD-
 
 CCompileC build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/Objects-normal/x86_64/DummyPluginViewController.o /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/DummyPluginViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s385541717.672216

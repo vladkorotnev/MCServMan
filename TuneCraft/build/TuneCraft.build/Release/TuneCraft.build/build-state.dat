@@ -4,8 +4,8 @@ r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/Info.plist TuneCraft/TuneCraft-Info.plist
 cProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TuneCraft-Prefix-gjyqcdbssaftyohafyowynggcsci/TuneCraft-Prefix.pch.pth TuneCraft/TuneCraft-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftSettingViewController.o /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftSettingViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftMain.o /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftSettingViewController.o /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftSettingViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft normal x86_64
 cGenerateDSYMFile /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle.dSYM /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft
 cCopyStringsFile /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/Resources/en.lproj/InfoPlist.strings TuneCraft/en.lproj/InfoPlist.strings
@@ -135,7 +135,7 @@ s1046
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesea07d155e6fab641^4738d955e6fab641^---0#1#0#--18"Check dependencies36"E5074B4F-81AA-4778-83BE-B41F007F7DA6-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6b451fd2e7fab641^325627d2e7fab641^---0#1#0#--18"Check dependencies36"490B3E89-099D-47E5-9343-3A82E0F2D9E7-
 
 CCompileC build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftMain.o /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s385541650.817292
