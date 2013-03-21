@@ -15,12 +15,12 @@
 @end
 
 @protocol SMAppDelegatePluginsAllowedProtocol
-- (void) _log:(NSString*)mess; //only this allowed for plugins
+- (void) pluginLog:(NSString*)mess; //only this allowed for plugins
 @end
 
 @protocol MCServManPlugin <NSObject>
 @required
-- (NSString*)pluginName; // visible name
++ (NSString*)pluginName; // visible name
 - (NSView*)settingsView; //settings view
 @optional
 - (void) onLoad:(SMAppDelegate<SMAppDelegatePluginsAllowedProtocol>*)delegate; //on plugin load
@@ -29,6 +29,10 @@
 - (void) onServerStop:(SMServer<SMServerPluginsAllowedMethodsProtocol>*)server; //on server stop
 - (void) onServerMessage: (NSString*)msg; //on new line in console
 - (void) onServerDoneLoading:(SMServer<SMServerPluginsAllowedMethodsProtocol>*)server; //on server Done loading
+- (void) onUserJoined:(NSString*)username;
+- (void) onUserLeft: (NSString*)username;
+- (void) onChat:(NSString*)message sentBy:(NSString*)user;
+
 @end
 
 

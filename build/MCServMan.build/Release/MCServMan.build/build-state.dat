@@ -4,34 +4,40 @@ r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Info.plist MCServMan/MCServMan-Info.plist
 cProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MCServMan-Prefix-dfinvdbdgtsefchakeafyoxjzvtg/MCServMan-Prefix.pch.pth MCServMan/MCServMan-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMAppDelegate.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/ASIDataCompressor.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASIDataCompressor.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/ASIHTTPRequest.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASIHTTPRequest.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/ASIInputStream.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASIInputStream.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/ASIDataDecompressor.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASIDataDecompressor.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/main.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/ASIDownloadCache.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASIDownloadCache.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/ASIFormDataRequest.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASIFormDataRequest.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/ASINetworkQueue.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASINetworkQueue.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMServer.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMServer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/main.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/MFTask.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/MFTask.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/ASIDataCompressor.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASIDataCompressor.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/ASIDataDecompressor.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASIDataDecompressor.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMAppDelegate.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/ASIHTTPRequest.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASIHTTPRequest.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/ASIDownloadCache.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASIDownloadCache.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/ASIInputStream.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASIInputStream.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMServer.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMServer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/MFTaskDelegate.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/MFTaskDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/ASINetworkQueue.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASINetworkQueue.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/MFTaskQueue.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/MFTaskQueue.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfiguratorPanel.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfig.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfig.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/MacOS/MCServMan normal x86_64
 cGenerateDSYMFile /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app.dSYM /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/MacOS/MCServMan
+cCpResource MCServMan/en.lproj/Credits.rtf build/Release/MCServMan.app/Contents/Resources/en.lproj/Credits.rtf
 cCopyStringsFile /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/en.lproj/InfoPlist.strings MCServMan/en.lproj/InfoPlist.strings
 cCompileXIB /Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/MainMenu.xib
-cCpResource MCServMan/en.lproj/Credits.rtf build/Release/MCServMan.app/Contents/Resources/en.lproj/Credits.rtf
 cCpResource MCServMan/ASIWebPageRequest build/Release/MCServMan.app/Contents/Resources/ASIWebPageRequest
-cCpResource MCServMan/CloudFiles build/Release/MCServMan.app/Contents/Resources/CloudFiles
 cCpResource MCServMan/S3 build/Release/MCServMan.app/Contents/Resources/S3
+cCpResource MCServMan/CloudFiles build/Release/MCServMan.app/Contents/Resources/CloudFiles
 cCpResource MCServMan/Tests build/Release/MCServMan.app/Contents/Resources/Tests
 cCopyPlistFile /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/MCSettingKeys.plist MCServMan/MCSettingKeys.plist
 cCompileXIB /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.xib
 cCpResource MCServMan/dsa_pub.pem build/Release/MCServMan.app/Contents/Resources/dsa_pub.pem
 cCpResource MCServMan/sparkle.png build/Release/MCServMan.app/Contents/Resources/sparkle.png
+cCpResource MCServMan/av_pause.png build/Release/MCServMan.app/Contents/Resources/av_pause.png
+cCpResource MCServMan/av_play.png build/Release/MCServMan.app/Contents/Resources/av_play.png
+cCpResource MCServMan/NSCreeper.png build/Release/MCServMan.app/Contents/Resources/NSCreeper.png
+cCpResource CreeperMac.icns build/Release/MCServMan.app/Contents/Resources/CreeperMac.icns
+cCpResource MCServMan/NSWhiteCreeper.png build/Release/MCServMan.app/Contents/Resources/NSWhiteCreeper.png
+cPBXCp DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle build/Release/MCServMan.app/Contents/PlugIns/DummyMCSMPlugin.bundle
 cPBXCp TuneCraft/build/Release/TuneCraft.bundle build/Release/MCServMan.app/Contents/PlugIns/TuneCraft.bundle
 cPBXCp MCServMan/Sparkle.framework build/Release/MCServMan.app/Contents/Frameworks/Sparkle.framework
 cTouch /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app
@@ -70,6 +76,16 @@ N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 c0000000050A0BB450000000000004714
 t1352710981
 s18196
+
+N/Users/tigra/Desktop/Coding/MCServMan/CreeperMac.icns
+c00000000514A9F7B0000000000020C6B
+t1363844987
+s134251
+
+N/Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle
+c00000000514AA2460000000000000066
+t1363845702
+s102
 
 N/Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASICacheDelegate.h
 c0000000050ADC936000000000000141F
@@ -172,9 +188,9 @@ t1353566518
 s544
 
 N/Users/tigra/Desktop/Coding/MCServMan/MCServMan/Defines.h
-c0000000051387F4100000000000003FF
-t1362657089
-s1023
+c00000000514A85DD000000000000046F
+t1363838429
+s1135
 
 N/Users/tigra/Desktop/Coding/MCServMan/MCServMan/MCServMan-Prefix.pch
 c000000005134D0BB0000000000000095
@@ -183,9 +199,9 @@ s149
 i<Cocoa/Cocoa.h>
 
 N/Users/tigra/Desktop/Coding/MCServMan/MCServMan/MCServManPlugin.h
-c000000005139D2D1000000000000049F
-t1362744017
-s1183
+c00000000514A95F40000000000000535
+t1363842548
+s1333
 
 N/Users/tigra/Desktop/Coding/MCServMan/MCServMan/MCSettingKeys.plist
 c0000000051387F310000000000001E38
@@ -227,20 +243,30 @@ c000000004DAD9D720000000000000E9A
 t1303223666
 s3738
 
+N/Users/tigra/Desktop/Coding/MCServMan/MCServMan/NSCreeper.png
+c00000000514A9DEC0000000000000F74
+t1363844588
+s3956
+
+N/Users/tigra/Desktop/Coding/MCServMan/MCServMan/NSWhiteCreeper.png
+c00000000514AA1150000000000000EF1
+t1363845397
+s3825
+
 N/Users/tigra/Desktop/Coding/MCServMan/MCServMan/S3
 c0000000050ADC93600000000000001FE
 t1353566518
 s510
 
 N/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.h
-c00000000513C1DB10000000000000C72
-t1362894257
-s3186
+c00000000514A86BD0000000000000CED
+t1363838653
+s3309
 
 N/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.m
-c000000005145B6610000000000005A08
-t1363523169
-s23048
+c00000000514A9B260000000000006B3F
+t1363843878
+s27455
 
 N/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfig.h
 c00000000513866A9000000000000028F
@@ -263,9 +289,9 @@ t1362723175
 s8263
 
 N/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.xib
-c00000000513860DE0000000000016902
-t1362649310
-s92418
+c00000000514A93B600000000000148B3
+t1363841974
+s84147
 
 N/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMServer.h
 c000000005138904B000000000000044E
@@ -317,15 +343,25 @@ c0000000050E7DD9C0000000000000044
 t1357372828
 s68
 
+N/Users/tigra/Desktop/Coding/MCServMan/MCServMan/av_pause.png
+c0000000045A3195900000000000012DF
+t1168316761
+s4831
+
+N/Users/tigra/Desktop/Coding/MCServMan/MCServMan/av_play.png
+c0000000045A319590000000000001369
+t1168316761
+s4969
+
 N/Users/tigra/Desktop/Coding/MCServMan/MCServMan/dsa_pub.pem
 c00000000513C20B8000000000000028E
 t1362895032
 s654
 
 N/Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/Credits.rtf
-c000000005138834F000000000000056E
-t1362658127
-s1390
+c00000000514A9E4900000000000005E8
+t1363844681
+s1512
 
 N/Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/InfoPlist.strings
 c000000005134D0BB000000000000002D
@@ -333,9 +369,9 @@ t1362415803
 s45
 
 N/Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/MainMenu.xib
-c00000000513C255D0000000000036FB6
-t1362896221
-s225206
+c00000000514AA4330000000000037DC6
+t1363846195
+s228806
 
 N/Users/tigra/Desktop/Coding/MCServMan/MCServMan/main.m
 c000000005134D0BB0000000000000107
@@ -348,8 +384,8 @@ t1362896142
 s8309
 
 N/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle
-c000000005145B7100000000000000066
-t1363523344
+c00000000514AA2470000000000000066
+t1363845703
 s102
 
 N/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/ASIDataCompressor.o
@@ -398,19 +434,19 @@ t1363521981
 s26476
 
 N/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMAppDelegate.o
-t1363521981
-s197872
+t1363845703
+s219280
 
 N/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfig.o
-t1363521981
+t1363845703
 s35976
 
 N/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfiguratorPanel.o
-t1363521981
-s121076
+t1363845703
+s124468
 
 N/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMServer.o
-t1363521981
+t1363845703
 s29828
 
 N/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/main.o
@@ -422,7 +458,7 @@ t2
 s0
 
 N/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app.dSYM
-t1363521982
+t1363846213
 s102
 
 N/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Frameworks/Sparkle.framework
@@ -441,6 +477,10 @@ N/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/PkgI
 t2
 s0
 
+N/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/PlugIns/DummyMCSMPlugin.bundle
+t2
+s0
+
 N/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/PlugIns/TuneCraft.bundle
 t2
 s0
@@ -453,7 +493,19 @@ N/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Reso
 t2
 s0
 
+N/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/CreeperMac.icns
+t2
+s0
+
 N/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/MCSettingKeys.plist
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/NSCreeper.png
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/NSWhiteCreeper.png
 t2
 s0
 
@@ -466,6 +518,14 @@ t2
 s0
 
 N/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/Tests
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/av_pause.png
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/av_play.png
 t2
 s0
 
@@ -498,13 +558,13 @@ t1362895859
 s12830036
 
 NMCServMan/MCServMan-Info.plist
-c000000005145B596000000000000049B
-t1363522966
-s1179
+c00000000514AA17B00000000000004A1
+t1363845499
+s1185
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesbb260890eef5b641^514e0890eef5b641^---0#1#0#--18"Check dependencies36"7538AE06-1DF7-4E84-B85F-49AF4519C8F3-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4bcc9bcbdbfab641^fdf79ccbdbfab641^---0#1#0#--18"Check dependencies36"F2FDCB67-56AD-4529-B8CF-77B9DF5C06C0-
 
 CCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/ASIDataCompressor.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASIDataCompressor.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s385214781.027286
@@ -646,8 +706,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/tigra/Desktop/Coding/MCServMan/MCServMan/MFTaskQueue.m3a75893de9f5b641^357da23de9f5b641^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/MFTaskQueue.m0000000000000000^3093"CompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/MFTaskQueue.o MCServMan/MFTaskQueue.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/MCServMan    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-generated-files.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-project-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/DerivedSources -F/Users/tigra/Desktop/Coding/MCServMan/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/MCServMan -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MCServMan-Prefix-dfinvdbdgtsefchakeafyoxjzvtg/MCServMan-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/MFTaskQueue.d --serialize-diagnostics /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/MFTaskQueue.dia -c /Users/tigra/Desktop/Coding/MCServMan/MCServMan/MFTaskQueue.m -o /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/MFTaskQueue.o36"1A030875-18D9-4A57-8A75-F7AD5C359621-
 
 CCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMAppDelegate.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s385216144.054732
-e385216144.255955
+s385538503.248148
+e385538503.684456
 r1
 xCompileC
 xbuild/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMAppDelegate.o
@@ -659,18 +719,18 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 o/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.m:27:17: warning: incomplete implementation [-Wincomplete-implementation]
 o@implementation SMAppDelegate
 o                ^
-o/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.h:36:1: note: method definition for 'unpopCfg:' not found
+o/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.h:39:1: note: method definition for 'unpopCfg:' not found
 o- (IBAction)unpopCfg:(id)sender;
 o^
-o/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.h:72:1: note: method definition for 'playerList:' not found
+o/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.h:75:1: note: method definition for 'playerList:' not found
 o- (IBAction)playerList:(id)sender;
 o^
 o1 warning generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.mf0180e90eef5b641^06854190eef5b641^-519"/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.m:27:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation SMAppDelegate                ^/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.h:36:1: note: method definition for 'unpopCfg:' not found- (IBAction)unpopCfg:(id)sender;^/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.h:72:1: note: method definition for 'playerList:' not found- (IBAction)playerList:(id)sender;^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@25"Incomplete implementation-385216144#18446744073709551615#0#2(2@43"Method definition for 'unpopCfg:' not found-385216144#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@79"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.h0000000000000000^35#0#35#0#1277#0#14"Semantic Issue--2@45"Method definition for 'playerList:' not found-385216144#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@79"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.h0000000000000000^71#0#71#0#2775#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.m0000000000000000^26#16#26#16#489#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@79"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.m0000000000000000^3105"CompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMAppDelegate.o MCServMan/SMAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/MCServMan    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-generated-files.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-project-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/DerivedSources -F/Users/tigra/Desktop/Coding/MCServMan/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/MCServMan -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MCServMan-Prefix-dfinvdbdgtsefchakeafyoxjzvtg/MCServMan-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMAppDelegate.d --serialize-diagnostics /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMAppDelegate.dia -c /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.m -o /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMAppDelegate.o36"62FD286A-E252-49FE-8C7B-1231956B25D7-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.m6ea13fc7d9fab641^6537afc7d9fab641^-519"/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.m:27:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation SMAppDelegate                ^/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.h:39:1: note: method definition for 'unpopCfg:' not found- (IBAction)unpopCfg:(id)sender;^/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.h:75:1: note: method definition for 'playerList:' not found- (IBAction)playerList:(id)sender;^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@25"Incomplete implementation-385538503#18446744073709551615#0#2(2@43"Method definition for 'unpopCfg:' not found-385538503#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@79"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.h0000000000000000^38#0#38#0#1385#0#14"Semantic Issue--2@45"Method definition for 'playerList:' not found-385538503#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@79"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.h0000000000000000^74#0#74#0#2893#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.m0000000000000000^26#16#26#16#489#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@79"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.m0000000000000000^3105"CompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMAppDelegate.o MCServMan/SMAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/MCServMan    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-generated-files.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-project-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/DerivedSources -F/Users/tigra/Desktop/Coding/MCServMan/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/MCServMan -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MCServMan-Prefix-dfinvdbdgtsefchakeafyoxjzvtg/MCServMan-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMAppDelegate.d --serialize-diagnostics /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMAppDelegate.dia -c /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMAppDelegate.m -o /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMAppDelegate.o36"34C5CB55-0AC7-4082-85A6-05B80307546A-
 
 CCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfig.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfig.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s385214781.592223
-e385214781.673674
+s385538503.252862
+e385538503.505808
 r1
 xCompileC
 xbuild/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfig.o
@@ -679,11 +739,11 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfig.m22c2973de9f5b641^eb74ac3de9f5b641^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfig.m0000000000000000^3129"CompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfig.o MCServMan/SMMinecraftConfig.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/MCServMan    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-generated-files.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-project-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/DerivedSources -F/Users/tigra/Desktop/Coding/MCServMan/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/MCServMan -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MCServMan-Prefix-dfinvdbdgtsefchakeafyoxjzvtg/MCServMan-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfig.d --serialize-diagnostics /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfig.dia -c /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfig.m -o /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfig.o36"44238D61-2E1F-4C60-9562-67251B3B8B4D-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfig.md7dd40c7d9fab641^089081c7d9fab641^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfig.m0000000000000000^3129"CompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfig.o MCServMan/SMMinecraftConfig.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/MCServMan    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-generated-files.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-project-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/DerivedSources -F/Users/tigra/Desktop/Coding/MCServMan/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/MCServMan -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MCServMan-Prefix-dfinvdbdgtsefchakeafyoxjzvtg/MCServMan-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfig.d --serialize-diagnostics /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfig.dia -c /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfig.m -o /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfig.o36"5F6511A7-4366-4E2D-A49C-FEF23E74F162-
 
 CCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfiguratorPanel.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s385214781.027291
-e385214781.236502
+s385538503.253915
+e385538503.554512
 r1
 xCompileC
 xbuild/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfiguratorPanel.o
@@ -705,11 +765,11 @@ o/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.h:
 o- (IBAction)doDel:(id)sender;
 o^
 o3 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.m4b1e073de9f5b641^c2c33c3de9f5b641^-752"/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.m:88:6: warning: 'SMAppDelegate' may not respond to '_panelPop:'    [a _panelPop:panel];     ^/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.m:93:6: warning: 'SMAppDelegate' may not respond to '_panelUnpop:'    [a _panelUnpop:panel];     ^/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.m:14:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation SMMinecraftConfiguratorPanel                ^/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.h:25:1: note: method definition for 'doDel:' not found- (IBAction)doDel:(id)sender;^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@47"'SMAppDelegate' may not respond to '_panelPop:'-385214781#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@94"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.m0000000000000000^87#5#87#5#3105#0#14"Semantic Issue--2@49"'SMAppDelegate' may not respond to '_panelUnpop:'-385214781#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@94"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.m0000000000000000^92#5#92#5#3252#0#14"Semantic Issue--2@25"Incomplete implementation-385214781#18446744073709551615#0#1(2@40"Method definition for 'doDel:' not found-385214781#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@94"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.h0000000000000000^24#0#24#0#807#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@94"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.m0000000000000000^13#16#13#16#275#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@94"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.m0000000000000000^3195"CompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfiguratorPanel.o MCServMan/SMMinecraftConfiguratorPanel.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/MCServMan    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-generated-files.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-project-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/DerivedSources -F/Users/tigra/Desktop/Coding/MCServMan/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/MCServMan -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MCServMan-Prefix-dfinvdbdgtsefchakeafyoxjzvtg/MCServMan-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfiguratorPanel.d --serialize-diagnostics /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfiguratorPanel.dia -c /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.m -o /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfiguratorPanel.o36"67B032EB-038F-4C6B-93C1-53F88379F2F2-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.md61f41c7d9fab641^30f38dc7d9fab641^-752"/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.m:88:6: warning: 'SMAppDelegate' may not respond to '_panelPop:'    [a _panelPop:panel];     ^/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.m:93:6: warning: 'SMAppDelegate' may not respond to '_panelUnpop:'    [a _panelUnpop:panel];     ^/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.m:14:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation SMMinecraftConfiguratorPanel                ^/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.h:25:1: note: method definition for 'doDel:' not found- (IBAction)doDel:(id)sender;^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@47"'SMAppDelegate' may not respond to '_panelPop:'-385538503#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@94"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.m0000000000000000^87#5#87#5#3105#0#14"Semantic Issue--2@49"'SMAppDelegate' may not respond to '_panelUnpop:'-385538503#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@94"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.m0000000000000000^92#5#92#5#3252#0#14"Semantic Issue--2@25"Incomplete implementation-385538503#18446744073709551615#0#1(2@40"Method definition for 'doDel:' not found-385538503#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@94"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.h0000000000000000^24#0#24#0#807#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@94"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.m0000000000000000^13#16#13#16#275#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@94"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.m0000000000000000^3195"CompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfiguratorPanel.o MCServMan/SMMinecraftConfiguratorPanel.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/MCServMan    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-generated-files.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-project-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/DerivedSources -F/Users/tigra/Desktop/Coding/MCServMan/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/MCServMan -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MCServMan-Prefix-dfinvdbdgtsefchakeafyoxjzvtg/MCServMan-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfiguratorPanel.d --serialize-diagnostics /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfiguratorPanel.dia -c /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.m -o /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMMinecraftConfiguratorPanel.o36"2CB22C95-49CB-41B2-94B0-B0A0D6DAC14B-
 
 CCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMServer.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMServer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s385214781.429024
-e385214781.522217
+s385538503.250525
+e385538503.469565
 r1
 xCompileC
 xbuild/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMServer.o
@@ -718,7 +778,7 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMServer.m2ff76d3de9f5b641^6ec2853de9f5b641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMServer.m0000000000000000^3075"CompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMServer.o MCServMan/SMServer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/MCServMan    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-generated-files.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-project-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/DerivedSources -F/Users/tigra/Desktop/Coding/MCServMan/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/MCServMan -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MCServMan-Prefix-dfinvdbdgtsefchakeafyoxjzvtg/MCServMan-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMServer.d --serialize-diagnostics /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMServer.dia -c /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMServer.m -o /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMServer.o36"9AB3278E-2894-4F71-8435-42225AA76A91-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMServer.mef3940c7d9fab641^8f3478c7d9fab641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMServer.m0000000000000000^3075"CompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMServer.o MCServMan/SMServer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/MCServMan    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-generated-files.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-project-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/DerivedSources -F/Users/tigra/Desktop/Coding/MCServMan/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/MCServMan -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MCServMan-Prefix-dfinvdbdgtsefchakeafyoxjzvtg/MCServMan-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMServer.d --serialize-diagnostics /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMServer.dia -c /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMServer.m -o /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/SMServer.o36"E63872A1-BD62-421F-881D-76CC54CCBEC5-
 
 CCompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/main.o /Users/tigra/Desktop/Coding/MCServMan/MCServMan/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s385214781.027267
@@ -734,151 +794,206 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/tigra/Desktop/Coding/MCServMan/MCServMan/main.mc91c073de9f5b641^b6bc123de9f5b641^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/main.m0000000000000000^3051"CompileC build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/main.o MCServMan/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/MCServMan    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-generated-files.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/MCServMan-project-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/DerivedSources -F/Users/tigra/Desktop/Coding/MCServMan/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/MCServMan -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MCServMan-Prefix-dfinvdbdgtsefchakeafyoxjzvtg/MCServMan-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/main.dia -c /Users/tigra/Desktop/Coding/MCServMan/MCServMan/main.m -o /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/main.o36"E676FEFC-01DE-46A2-A97A-3D4DE702D3D3-
 
 CCompileXIB /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.xib
-s385216144.374801
-e385216144.905922
+s385539019.763183
+e385539019.828480
 r1
 xCompileXIB
 x/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.xib
 o/* com.apple.ibtool.document.warnings */
 o/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.xib:45: warning: Use Current Width For Max Layout Width on Mac OS X versions prior to 10.8 [5]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compiling /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.xib7d066090eef5b641^9df7e790eef5b641^-207"/* com.apple.ibtool.document.warnings *//Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.xib:45: warning: Use Current Width For Max Layout Width on Mac OS X versions prior to 10.81(21%IDEActivityLogMessage2@73"Use Current Width For Max Layout Width on Mac OS X versions prior to 10.8-385216144#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@96"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.xib0000000000000000^44#18446744073709551615#44#18446744073709551615#18446744073709551615#0#21"Attribute Unavailable--0#0#0#-19%DVTDocumentLocation4@96"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.xib0000000000000000^631"CompileXIB MCServMan/SMMinecraftConfiguratorPanel.xib    cd /Users/tigra/Desktop/Coding/MCServMan    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/SMMinecraftConfiguratorPanel.nib /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"BCEC095C-CA04-4C1F-AD37-73BE93AF48DB-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compiling /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.xibf776c3cbdbfab641^6d38d4cbdbfab641^-207"/* com.apple.ibtool.document.warnings *//Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.xib:45: warning: Use Current Width For Max Layout Width on Mac OS X versions prior to 10.81(21%IDEActivityLogMessage2@73"Use Current Width For Max Layout Width on Mac OS X versions prior to 10.8-385539019#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@96"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.xib0000000000000000^44#18446744073709551615#44#18446744073709551615#18446744073709551615#0#21"Attribute Unavailable--0#0#0#-19%DVTDocumentLocation4@96"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.xib0000000000000000^631"CompileXIB MCServMan/SMMinecraftConfiguratorPanel.xib    cd /Users/tigra/Desktop/Coding/MCServMan    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/SMMinecraftConfiguratorPanel.nib /Users/tigra/Desktop/Coding/MCServMan/MCServMan/SMMinecraftConfiguratorPanel.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"FC3F69E4-5B36-47E9-8829-EB38D660C736-
 
 CCompileXIB /Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/MainMenu.xib
-s385216144.363313
-e385216144.959423
+s385539019.749893
+e385539019.872667
 r1
 xCompileXIB
 x/Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/MainMenu.xib
 o/* com.apple.ibtool.document.notices */
 o/Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/MainMenu.xib:884: note: View is clipping its content [13]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compiling /Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/MainMenu.xib8b195d90eef5b641^dfa4f590eef5b641^-148"/* com.apple.ibtool.document.notices *//Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/MainMenu.xib:884: note: View is clipping its content1(21%IDEActivityLogMessage2@28"View is clipping its content-385216144#18446744073709551615#0#-0#-23%DVTTextDocumentLocation3@85"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/MainMenu.xib0000000000000000^883#18446744073709551615#883#18446744073709551615#18446744073709551615#0#15"Clipped Content--0#0#0#-19%DVTDocumentLocation4@85"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/MainMenu.xib0000000000000000^598"CompileXIB MCServMan/en.lproj/MainMenu.xib    cd /Users/tigra/Desktop/Coding/MCServMan    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/en.lproj/MainMenu.nib /Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/MainMenu.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"E2FD38F6-D144-4655-8A58-E56FD633E707-
+o/Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/MainMenu.xib:919: note: View is clipping its content [13]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compiling /Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/MainMenu.xib390ec0cbdbfab641^abcfe1cbdbfab641^-257"/* com.apple.ibtool.document.notices *//Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/MainMenu.xib:884: note: View is clipping its content/Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/MainMenu.xib:919: note: View is clipping its content2(21%IDEActivityLogMessage2@28"View is clipping its content-385539019#18446744073709551615#0#-0#-23%DVTTextDocumentLocation3@85"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/MainMenu.xib0000000000000000^883#18446744073709551615#883#18446744073709551615#18446744073709551615#0#15"Clipped Content--2@28"View is clipping its content-385539019#18446744073709551615#0#-0#-3@85"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/MainMenu.xib0000000000000000^918#18446744073709551615#918#18446744073709551615#18446744073709551615#0#15"Clipped Content--0#0#0#-19%DVTDocumentLocation4@85"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/MainMenu.xib0000000000000000^598"CompileXIB MCServMan/en.lproj/MainMenu.xib    cd /Users/tigra/Desktop/Coding/MCServMan    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/en.lproj/MainMenu.nib /Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/MainMenu.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"9937D6D9-BF39-49F4-8B13-09C0D76F854B-
 
 CCopyPlistFile /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/MCSettingKeys.plist MCServMan/MCSettingKeys.plist
-s385216144.373722
-e385216144.395188
+s385539019.760585
+e385539019.768369
 r1
 xCopyPlistFile
 x/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/MCSettingKeys.plist
 xMCServMan/MCSettingKeys.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Copy MCServMan/MCSettingKeys.plist60c75f90eef5b641^83326590eef5b641^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/MCSettingKeys.plist0000000000000000^305"CopyPlistFile build/Release/MCServMan.app/Contents/Resources/MCSettingKeys.plist MCServMan/MCSettingKeys.plist    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copyPlist --outdir /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources -- MCServMan/MCSettingKeys.plist36"B1AEA964-AA83-4D94-9F89-70976296F8B3-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Copy MCServMan/MCSettingKeys.pliste2cdc2cbdbfab641^aab9c4cbdbfab641^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/MCSettingKeys.plist0000000000000000^305"CopyPlistFile build/Release/MCServMan.app/Contents/Resources/MCSettingKeys.plist MCServMan/MCSettingKeys.plist    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copyPlist --outdir /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources -- MCServMan/MCSettingKeys.plist36"92E3E061-0BFA-445D-BA1D-3C7BAE3D41F1-
 
 CCopyStringsFile /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/en.lproj/InfoPlist.strings MCServMan/en.lproj/InfoPlist.strings
-s385216144.363296
-e385216144.368901
+s385539019.749836
+e385539019.753306
 r1
 xCopyStringsFile
 x/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/en.lproj/InfoPlist.strings
 xMCServMan/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy MCServMan/en.lproj/InfoPlist.stringsf5105d90eef5b641^b56f5e90eef5b641^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/InfoPlist.strings0000000000000000^396"CopyStringsFile build/Release/MCServMan.app/Contents/Resources/en.lproj/InfoPlist.strings MCServMan/en.lproj/InfoPlist.strings    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/en.lproj -- MCServMan/en.lproj/InfoPlist.strings36"84867CE3-4888-4C47-AD11-331C42C6FB36-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy MCServMan/en.lproj/InfoPlist.stringse910c0cbdbfab641^80d6c0cbdbfab641^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/InfoPlist.strings0000000000000000^396"CopyStringsFile build/Release/MCServMan.app/Contents/Resources/en.lproj/InfoPlist.strings MCServMan/en.lproj/InfoPlist.strings    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/en.lproj -- MCServMan/en.lproj/InfoPlist.strings36"A6BEF831-9109-4F34-B544-8773B19EFE7D-
+
+CCpResource CreeperMac.icns build/Release/MCServMan.app/Contents/Resources/CreeperMac.icns
+s385539019.775683
+e385539019.778199
+r1
+xCpResource
+xCreeperMac.icns
+xbuild/Release/MCServMan.app/Contents/Resources/CreeperMac.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Release/MCServMan.app/Contents/Resources/CreeperMac.icnsb3b5c6cbdbfab641^9163c7cbdbfab641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/CreeperMac.icns000000000080d041^512"CpResource CreeperMac.icns build/Release/MCServMan.app/Contents/Resources/CreeperMac.icns    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/CreeperMac.icns /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources36"2C47F36C-4A41-48C0-8247-A868D5ED0BB2-
 
 CCpResource MCServMan/ASIWebPageRequest build/Release/MCServMan.app/Contents/Resources/ASIWebPageRequest
-s385216144.363574
-e385216144.367907
+s385539019.750085
+e385539019.755485
 r1
 xCpResource
 xMCServMan/ASIWebPageRequest
 xbuild/Release/MCServMan.app/Contents/Resources/ASIWebPageRequest
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Release/MCServMan.app/Contents/Resources/ASIWebPageRequest601f5d90eef5b641^22345e90eef5b641^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/ASIWebPageRequest000000000080d041^538"CpResource MCServMan/ASIWebPageRequest build/Release/MCServMan.app/Contents/Resources/ASIWebPageRequest    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASIWebPageRequest /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources36"61C51661-3F94-4DA4-9387-EB137550FA98-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Release/MCServMan.app/Contents/Resources/ASIWebPageRequest7e19c0cbdbfab641^cb67c1cbdbfab641^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/ASIWebPageRequest000000000080d041^538"CpResource MCServMan/ASIWebPageRequest build/Release/MCServMan.app/Contents/Resources/ASIWebPageRequest    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/MCServMan/ASIWebPageRequest /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources36"9F3696DD-830B-4DF9-9849-117A560C5BA6-
 
 CCpResource MCServMan/CloudFiles build/Release/MCServMan.app/Contents/Resources/CloudFiles
-s385216144.367881
-e385216144.372314
+s385539019.754454
+e385539019.758406
 r1
 xCpResource
 xMCServMan/CloudFiles
 xbuild/Release/MCServMan.app/Contents/Resources/CloudFiles
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Release/MCServMan.app/Contents/Resources/CloudFiles2d415e90eef5b641^00565f90eef5b641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/CloudFiles000000000080d041^517"CpResource MCServMan/CloudFiles build/Release/MCServMan.app/Contents/Resources/CloudFiles    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/MCServMan/CloudFiles /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources36"B39CB59F-C9DA-425C-B1B5-70E687A5AEFB-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Release/MCServMan.app/Contents/Resources/CloudFilese337c1cbdbfab641^f758c2cbdbfab641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/CloudFiles000000000080d041^517"CpResource MCServMan/CloudFiles build/Release/MCServMan.app/Contents/Resources/CloudFiles    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/MCServMan/CloudFiles /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources36"0134DE71-2DF7-4BA3-A2D5-6B8F9015D504-
+
+CCpResource MCServMan/NSCreeper.png build/Release/MCServMan.app/Contents/Resources/NSCreeper.png
+s385539019.774025
+e385539019.777079
+r1
+xCpResource
+xMCServMan/NSCreeper.png
+xbuild/Release/MCServMan.app/Contents/Resources/NSCreeper.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Release/MCServMan.app/Contents/Resources/NSCreeper.png4643c6cbdbfab641^e8f6c6cbdbfab641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/NSCreeper.png000000000080d041^526"CpResource MCServMan/NSCreeper.png build/Release/MCServMan.app/Contents/Resources/NSCreeper.png    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/MCServMan/NSCreeper.png /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources36"EB3EA50D-BF38-48DA-89F6-1855D9CD0939-
+
+CCpResource MCServMan/NSWhiteCreeper.png build/Release/MCServMan.app/Contents/Resources/NSWhiteCreeper.png
+s385539019.778335
+e385539019.780411
+r1
+xCpResource
+xMCServMan/NSWhiteCreeper.png
+xbuild/Release/MCServMan.app/Contents/Resources/NSWhiteCreeper.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Release/MCServMan.app/Contents/Resources/NSWhiteCreeper.pngc557c7cbdbfab641^d2c8c7cbdbfab641^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/NSWhiteCreeper.png000000000080d041^541"CpResource MCServMan/NSWhiteCreeper.png build/Release/MCServMan.app/Contents/Resources/NSWhiteCreeper.png    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/MCServMan/NSWhiteCreeper.png /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources36"C98D4CD2-87E4-4A59-8000-FA5DFDBBE4E7-
 
 CCpResource MCServMan/S3 build/Release/MCServMan.app/Contents/Resources/S3
-s385216144.369017
-e385216144.373883
+s385539019.754443
+e385539019.761988
 r1
 xCpResource
 xMCServMan/S3
 xbuild/Release/MCServMan.app/Contents/Resources/S3
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Release/MCServMan.app/Contents/Resources/S3618a5e90eef5b641^78d55f90eef5b641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/S3000000000080d041^493"CpResource MCServMan/S3 build/Release/MCServMan.app/Contents/Resources/S3    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/MCServMan/S3 /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources36"3A8E1178-90AB-4404-928C-422C3C5B14CD-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Release/MCServMan.app/Contents/Resources/S3e337c1cbdbfab641^0c57c3cbdbfab641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/S3000000000080d041^493"CpResource MCServMan/S3 build/Release/MCServMan.app/Contents/Resources/S3    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/MCServMan/S3 /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources36"2BBB0A6C-0487-4726-A3B0-E2C137AF9400-
 
 CCpResource MCServMan/Tests build/Release/MCServMan.app/Contents/Resources/Tests
-s385216144.369020
-e385216144.373629
+s385539019.756917
+e385539019.762365
 r1
 xCpResource
 xMCServMan/Tests
 xbuild/Release/MCServMan.app/Contents/Resources/Tests
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Release/MCServMan.app/Contents/Resources/Testsce8c5e90eef5b641^08ad5f90eef5b641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/Tests000000000080d041^502"CpResource MCServMan/Tests build/Release/MCServMan.app/Contents/Resources/Tests    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/MCServMan/Tests /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources36"DC39627D-0151-4410-99F4-9A8D53A2E1E0-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Release/MCServMan.app/Contents/Resources/Testsd6e0c1cbdbfab641^1288c3cbdbfab641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/Tests000000000080d041^502"CpResource MCServMan/Tests build/Release/MCServMan.app/Contents/Resources/Tests    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/MCServMan/Tests /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources36"3D4CA568-4349-4FA2-B044-294CF8588B4F-
+
+CCpResource MCServMan/av_pause.png build/Release/MCServMan.app/Contents/Resources/av_pause.png
+s385539019.769516
+e385539019.772844
+r1
+xCpResource
+xMCServMan/av_pause.png
+xbuild/Release/MCServMan.app/Contents/Resources/av_pause.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Release/MCServMan.app/Contents/Resources/av_pause.png4017c5cbdbfab641^f208c6cbdbfab641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/av_pause.png000000000080d041^523"CpResource MCServMan/av_pause.png build/Release/MCServMan.app/Contents/Resources/av_pause.png    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/MCServMan/av_pause.png /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources36"7C2D11B4-D1F2-43C7-8E57-CA230C86A9AB-
+
+CCpResource MCServMan/av_play.png build/Release/MCServMan.app/Contents/Resources/av_play.png
+s385539019.771275
+e385539019.774488
+r1
+xCpResource
+xMCServMan/av_play.png
+xbuild/Release/MCServMan.app/Contents/Resources/av_play.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Release/MCServMan.app/Contents/Resources/av_play.png0e87c5cbdbfab641^4d4dc6cbdbfab641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/av_play.png000000000080d041^520"CpResource MCServMan/av_play.png build/Release/MCServMan.app/Contents/Resources/av_play.png    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/MCServMan/av_play.png /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources36"BBAB2296-FF84-49A1-80E2-6948B36033C6-
 
 CCpResource MCServMan/dsa_pub.pem build/Release/MCServMan.app/Contents/Resources/dsa_pub.pem
-s385216144.374826
-e385216144.385703
+s385539019.763559
+e385539019.766338
 r1
 xCpResource
 xMCServMan/dsa_pub.pem
 xbuild/Release/MCServMan.app/Contents/Resources/dsa_pub.pem
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Release/MCServMan.app/Contents/Resources/dsa_pub.pemf7056090eef5b641^e8c06290eef5b641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/dsa_pub.pem000000000080d041^520"CpResource MCServMan/dsa_pub.pem build/Release/MCServMan.app/Contents/Resources/dsa_pub.pem    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/MCServMan/dsa_pub.pem /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources36"445FB710-E88B-464F-86F5-C8A054F79380-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Release/MCServMan.app/Contents/Resources/dsa_pub.pem488bc3cbdbfab641^772ec4cbdbfab641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/dsa_pub.pem000000000080d041^520"CpResource MCServMan/dsa_pub.pem build/Release/MCServMan.app/Contents/Resources/dsa_pub.pem    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/MCServMan/dsa_pub.pem /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources36"A921045E-7556-438A-ADD0-FC351131D818-
 
 CCpResource MCServMan/en.lproj/Credits.rtf build/Release/MCServMan.app/Contents/Resources/en.lproj/Credits.rtf
-s385216144.363321
-e385216144.366701
+s385539019.749822
+e385539019.754220
 r1
 xCpResource
 xMCServMan/en.lproj/Credits.rtf
 xbuild/Release/MCServMan.app/Contents/Resources/en.lproj/Credits.rtf
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/Release/MCServMan.app/Contents/Resources/en.lproj/Credits.rtf6d1c5d90eef5b641^a8df5d90eef5b641^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/en.lproj/Credits.rtf000000000080d041^556"CpResource MCServMan/en.lproj/Credits.rtf build/Release/MCServMan.app/Contents/Resources/en.lproj/Credits.rtf    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/Credits.rtf /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/en.lproj36"9493D29B-C969-4AF4-8753-C72CDC16303A-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/Release/MCServMan.app/Contents/Resources/en.lproj/Credits.rtfb917c0cbdbfab641^1615c1cbdbfab641^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/en.lproj/Credits.rtf000000000080d041^556"CpResource MCServMan/en.lproj/Credits.rtf build/Release/MCServMan.app/Contents/Resources/en.lproj/Credits.rtf    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/MCServMan/en.lproj/Credits.rtf /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/en.lproj36"7F809CBF-FFBE-40E2-A704-D77620B8CA64-
 
 CCpResource MCServMan/sparkle.png build/Release/MCServMan.app/Contents/Resources/sparkle.png
-s385216144.388874
-e385216144.395485
+s385539019.767590
+e385539019.769556
 r1
 xCpResource
 xMCServMan/sparkle.png
 xbuild/Release/MCServMan.app/Contents/Resources/sparkle.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Release/MCServMan.app/Contents/Resources/sparkle.png1a6a6490eef5b641^703e6590eef5b641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/sparkle.png000000000080d041^520"CpResource MCServMan/sparkle.png build/Release/MCServMan.app/Contents/Resources/sparkle.png    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/MCServMan/sparkle.png /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources36"2ED18180-B093-40B5-A602-6CBDE6888B47-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Release/MCServMan.app/Contents/Resources/sparkle.png9a96c4cbdbfab641^fb07c5cbdbfab641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources/sparkle.png000000000080d041^520"CpResource MCServMan/sparkle.png build/Release/MCServMan.app/Contents/Resources/sparkle.png    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/MCServMan/sparkle.png /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Resources36"5F60B898-5497-4AF9-858C-2EF648FBDA16-
 
 CGenerateDSYMFile /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app.dSYM /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/MacOS/MCServMan
-s385216144.319832
-e385216144.355287
+s385539019.703766
+e385539019.741812
 r1
 xGenerateDSYMFile
 x/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app.dSYM
 x/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/MacOS/MCServMan
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Generate /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app.dSYMbbee5190eef5b641^f5f35a90eef5b641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app.dSYM/0000000000000000^413"GenerateDSYMFile build/Release/MCServMan.app.dSYM build/Release/MCServMan.app/Contents/MacOS/MCServMan    cd /Users/tigra/Desktop/Coding/MCServMan    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/MacOS/MCServMan -o /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app.dSYM36"BAEB794E-9600-4A14-9161-6F6049B086ED-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Generate /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app.dSYMf338b4cbdbfab641^9be6bdcbdbfab641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app.dSYM/0000000000000000^413"GenerateDSYMFile build/Release/MCServMan.app.dSYM build/Release/MCServMan.app/Contents/MacOS/MCServMan    cd /Users/tigra/Desktop/Coding/MCServMan    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/MacOS/MCServMan -o /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app.dSYM36"0BF2B130-4AF8-40A1-88D3-9F134E238C89-
 
 CLd /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/MacOS/MCServMan normal x86_64
-s385216144.262726
-e385216144.313002
+s385539019.648780
+e385539019.696972
 r1
 xLd
 x/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/MacOS/MCServMan
 xnormal
 xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Link /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/MacOS/MCServMan44524390eef5b641^a3205090eef5b641^---0#0#0#--899"Ld build/Release/MCServMan.app/Contents/MacOS/MCServMan normal x86_64    cd /Users/tigra/Desktop/Coding/MCServMan    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/tigra/Desktop/Coding/MCServMan/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/MCServMan -filelist /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/MCServMan.LinkFileList -mmacosx-version-min=10.6 -fobjc-link-runtime -lz -framework SystemConfiguration -lxml2.2 -lxml2 -framework Cocoa -framework Sparkle -o /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/MacOS/MCServMan36"F97DDF18-3E92-4948-8191-96F014A1279E-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Link /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/MacOS/MCServMan6231a6cbdbfab641^4c6cb2cbdbfab641^---0#0#0#--899"Ld build/Release/MCServMan.app/Contents/MacOS/MCServMan normal x86_64    cd /Users/tigra/Desktop/Coding/MCServMan    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/tigra/Desktop/Coding/MCServMan/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/MCServMan -filelist /Users/tigra/Desktop/Coding/MCServMan/build/MCServMan.build/Release/MCServMan.build/Objects-normal/x86_64/MCServMan.LinkFileList -mmacosx-version-min=10.6 -fobjc-link-runtime -lz -framework SystemConfiguration -lxml2.2 -lxml2 -framework Cocoa -framework Sparkle -o /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/MacOS/MCServMan36"D0677A98-F624-465C-9792-0B59613DE24E-
+
+CPBXCp DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle build/Release/MCServMan.app/Contents/PlugIns/DummyMCSMPlugin.bundle
+s385539019.909502
+e385539019.923929
+r1
+xPBXCp
+xDummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle
+xbuild/Release/MCServMan.app/Contents/PlugIns/DummyMCSMPlugin.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/Release/MCServMan.app/Contents/PlugIns/DummyMCSMPlugin.bundlecc40e9cbdbfab641^10aeeccbdbfab641^-357"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin -o /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/PlugIns/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin-0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/PlugIns/DummyMCSMPlugin.bundle000000000080d041^584"PBXCp DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle build/Release/MCServMan.app/Contents/PlugIns/DummyMCSMPlugin.bundle    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/PlugIns36"B7695BFF-0D49-4C03-B0BB-D14D2F487CCD-
 
 CPBXCp MCServMan/Sparkle.framework build/Release/MCServMan.app/Contents/Frameworks/Sparkle.framework
-s385216145.008143
-e385216145.049637
+s385539019.931354
+e385539019.973525
 r1
 xPBXCp
 xMCServMan/Sparkle.framework
 xbuild/Release/MCServMan.app/Contents/Frameworks/Sparkle.framework
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Release/MCServMan.app/Contents/Frameworks/Sparkle.framework2c2a0291eef5b641^52ba0c91eef5b641^-634"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/tigra/Desktop/Coding/MCServMan/MCServMan/Sparkle.framework/Versions/A/Resources/relaunch -o /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/relaunch/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/tigra/Desktop/Coding/MCServMan/MCServMan/Sparkle.framework/Versions/A/Sparkle -o /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle-0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Frameworks/Sparkle.framework000000000080d041^535"PBXCp MCServMan/Sparkle.framework build/Release/MCServMan.app/Contents/Frameworks/Sparkle.framework    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/MCServMan/Sparkle.framework /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Frameworks36"9B99E39B-720C-4447-AF8A-2B0603C9BD92-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Release/MCServMan.app/Contents/Frameworks/Sparkle.framework0e82eecbdbfab641^2f51f9cbdbfab641^-634"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/tigra/Desktop/Coding/MCServMan/MCServMan/Sparkle.framework/Versions/A/Resources/relaunch -o /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/relaunch/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/tigra/Desktop/Coding/MCServMan/MCServMan/Sparkle.framework/Versions/A/Sparkle -o /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle-0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Frameworks/Sparkle.framework000000000080d041^535"PBXCp MCServMan/Sparkle.framework build/Release/MCServMan.app/Contents/Frameworks/Sparkle.framework    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/MCServMan/Sparkle.framework /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Frameworks36"61382E52-A1A4-4120-B862-E3B97E0FF7D4-
 
 CPBXCp TuneCraft/build/Release/TuneCraft.bundle build/Release/MCServMan.app/Contents/PlugIns/TuneCraft.bundle
-s385216144.979230
-e385216145.000738
+s385539019.909508
+e385539019.923734
 r1
 xPBXCp
 xTuneCraft/build/Release/TuneCraft.bundle
 xbuild/Release/MCServMan.app/Contents/PlugIns/TuneCraft.bundle
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Release/MCServMan.app/Contents/PlugIns/TuneCraft.bundlef0c2fa90eef5b641^c1380091eef5b641^-327"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft -o /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/PlugIns/TuneCraft.bundle/Contents/MacOS/TuneCraft-0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/PlugIns/TuneCraft.bundle000000000080d041^554"PBXCp TuneCraft/build/Release/TuneCraft.bundle build/Release/MCServMan.app/Contents/PlugIns/TuneCraft.bundle    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/PlugIns36"AF2BB854-813D-401B-999A-49BE3E51ABAB-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Release/MCServMan.app/Contents/PlugIns/TuneCraft.bundle79ebe8cbdbfab641^978feccbdbfab641^-327"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft -o /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/PlugIns/TuneCraft.bundle/Contents/MacOS/TuneCraft-0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/PlugIns/TuneCraft.bundle000000000080d041^554"PBXCp TuneCraft/build/Release/TuneCraft.bundle build/Release/MCServMan.app/Contents/PlugIns/TuneCraft.bundle    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/PlugIns36"EF9BA53B-D609-4C34-B1D5-4784D0A1EBBE-
 
 CProcessInfoPlistFile /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Info.plist MCServMan/MCServMan-Info.plist
-s385216144.038246
-e385216144.040654
+s385539019.620895
+e385539019.623664
 r1
 xProcessInfoPlistFile
 x/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Info.plist
 xMCServMan/MCServMan-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Process MCServMan/MCServMan-Info.plist67d70990eef5b641^1b680a90eef5b641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/MCServMan-Info.plist0000000000000000^427"ProcessInfoPlistFile build/Release/MCServMan.app/Contents/Info.plist MCServMan/MCServMan-Info.plist    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-infoPlistUtility MCServMan/MCServMan-Info.plist -genpkginfo /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Info.plist36"D3C03E57-14DA-4BC5-A122-3D33B116131A-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Process MCServMan/MCServMan-Info.plistc0079fcbdbfab641^50a89fcbdbfab641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/tigra/Desktop/Coding/MCServMan/MCServMan/MCServMan-Info.plist0000000000000000^427"ProcessInfoPlistFile build/Release/MCServMan.app/Contents/Info.plist MCServMan/MCServMan-Info.plist    cd /Users/tigra/Desktop/Coding/MCServMan    builtin-infoPlistUtility MCServMan/MCServMan-Info.plist -genpkginfo /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app/Contents/Info.plist36"E149575C-CA8A-454F-9612-2642625287A6-
 
 CProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MCServMan-Prefix-dfinvdbdgtsefchakeafyoxjzvtg/MCServMan-Prefix.pch.pth MCServMan/MCServMan-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s385214780.410454
@@ -897,10 +1012,10 @@ CProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501
 r0
 
 CTouch /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app
-s385216145.057557
-e385216145.063547
+s385539019.982085
+e385539019.988755
 r1
 xTouch
 x/Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Touch /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app46ce0e91eef5b641^dd451091eef5b641^---0#0#0#--167"Touch build/Release/MCServMan.app    cd /Users/tigra/Desktop/Coding/MCServMan    /usr/bin/touch -c /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app36"EF12D01B-AA4A-48C2-8A7D-78CFF405151C-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Touch /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app6878fbcbdbfab641^b81efdcbdbfab641^---0#0#0#--167"Touch build/Release/MCServMan.app    cd /Users/tigra/Desktop/Coding/MCServMan    /usr/bin/touch -c /Users/tigra/Desktop/Coding/MCServMan/build/Release/MCServMan.app36"9366B696-0B16-446C-9331-63CF331B8A81-
 

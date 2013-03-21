@@ -14,6 +14,7 @@
 
 @implementation DummyPluginViewController
 static SMAppDelegate<SMAppDelegatePluginsAllowedProtocol>*del=nil;
+static SMServer<SMServerPluginsAllowedMethodsProtocol>*srv = nil;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -25,26 +26,37 @@ static SMAppDelegate<SMAppDelegatePluginsAllowedProtocol>*del=nil;
     return self;
 }
 
-- (NSString*)pluginName {
-    return @"Dummy plugin";
++ (NSString*)pluginName {
+    return @"Sample Plugin";
 }
 - (NSView*)settingsView {
     self = [self initWithNibName:@"DummyPluginViewController" bundle:[NSBundle bundleForClass:self.class]];
     return self.view;
 }
 - (void) onLoad:(SMAppDelegate<SMAppDelegatePluginsAllowedProtocol>*)delegate {
-    [delegate _log:@"== Dummy plugin onLoad event\n"];
+    [delegate pluginLog:@"Example onLoad event"];
     del=delegate;
 }
 - (void) onSettingShow{
-    [del _log:@"== Dummy plugin onSettingsShow\n"];
+    [del pluginLog:@"Example onSettingsShow"];
 }
 - (void) onServerStart:(SMServer<SMServerPluginsAllowedMethodsProtocol>*)server {
-    [del _log:@"== Dummy plugin onStart\n"];
+    srv=server;
+    [del pluginLog:@"Example onStart"];
 }
 - (void) onServerStop:(SMServer<SMServerPluginsAllowedMethodsProtocol>*)server{
-    [del _log:@"== Dummy plugin onStop\n"];
+    srv=nil;
+    [del pluginLog:@"Example onStop"];
 }
 - (void) onServerMessage: (NSString*)msg{}
 
+-(void)onUserJoined:(NSString*)name {
+    [srv sendServerMessage:[NSString stringWithFormat:@"say Greetings %@",name]];
+}
+-(void)onUserLeft:(NSString *)username {
+    [srv sendServerMessage:[NSString stringWithFormat:@"say See you later %@",username]];
+}
+-(void)onChat:(NSString *)message sentBy:(NSString *)user {
+ //  [del pluginLog:[NSString stringWithFormat:@"\"%@\", said %@",message,user]];
+}
 @end

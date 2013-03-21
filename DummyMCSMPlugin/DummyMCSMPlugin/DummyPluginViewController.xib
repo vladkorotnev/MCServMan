@@ -2,10 +2,10 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1070</int>
-		<string key="IBDocument.SystemVersion">12C60</string>
+		<string key="IBDocument.SystemVersion">12D78</string>
 		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
-		<string key="IBDocument.AppKitVersion">1187.34</string>
-		<string key="IBDocument.HIToolboxVersion">625.00</string>
+		<string key="IBDocument.AppKitVersion">1187.37</string>
+		<string key="IBDocument.HIToolboxVersion">626.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
 			<string key="NS.object.0">3084</string>
@@ -41,7 +41,7 @@
 				<array class="NSMutableArray" key="NSSubviews">
 					<object class="NSImageView" id="961933709">
 						<reference key="NSNextResponder" ref="1005"/>
-						<int key="NSvFlags">256</int>
+						<int key="NSvFlags">268</int>
 						<set class="NSMutableSet" key="NSDragTypes">
 							<string>Apple PDF pasteboard type</string>
 							<string>Apple PICT pasteboard type</string>
@@ -52,13 +52,14 @@
 						</set>
 						<string key="NSFrame">{{82, 53}, {32, 32}}</string>
 						<reference key="NSSuperview" ref="1005"/>
+						<reference key="NSNextKeyView" ref="740453785"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSImageCell" key="NSCell" id="575002292">
 							<int key="NSCellFlags">0</int>
 							<int key="NSCellFlags2">33554432</int>
 							<object class="NSCustomResource" key="NSContents">
 								<string key="NSClassName">NSImage</string>
-								<string key="NSResourceName">NSAdvanced</string>
+								<string key="NSResourceName">NSCreeper</string>
 							</object>
 							<int key="NSAlign">0</int>
 							<int key="NSScale">0</int>
@@ -73,7 +74,6 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{23, 20}, {150, 17}}</string>
 						<reference key="NSSuperview" ref="1005"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:1535</string>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="673764406">
@@ -111,7 +111,7 @@
 				</array>
 				<string key="NSFrameSize">{196, 105}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSNextKeyView" ref="740453785"/>
+				<reference key="NSNextKeyView" ref="961933709"/>
 				<string key="NSClassName">NSView</string>
 			</object>
 		</array>
@@ -215,8 +215,8 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NS.key.0">NSAdvanced</string>
-			<string key="NS.object.0">{32, 32}</string>
+			<string key="NS.key.0">NSCreeper</string>
+			<string key="NS.object.0">{300, 300}</string>
 		</object>
 	</data>
 </archive>

@@ -8,12 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 #import "MCServManPlugin.h"
-@interface DummyPluginViewController : NSViewController
-- (NSString*)pluginName; // visible name
-- (NSView*)settingsView; //settings view
-- (void) onLoad:(SMAppDelegate<SMAppDelegatePluginsAllowedProtocol>*)delegate; //on plugin load
-- (void) onSettingShow; //on open settings of plugin
-- (void) onServerStart:(SMServer<SMServerPluginsAllowedMethodsProtocol>*)server; //on server start
-- (void) onServerStop:(SMServer<SMServerPluginsAllowedMethodsProtocol>*)server; //on server stop
-- (void) onServerMessage: (NSString*)msg; //on new line in console
+@interface DummyPluginViewController : NSViewController<MCServManPlugin>
+
 @end

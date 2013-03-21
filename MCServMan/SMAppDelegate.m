@@ -33,21 +33,18 @@ static bool didLaunchServerForWorldCreation;
 - (void) MinecraftServerDidStart:(SMServer*)server{
     //server start, better disable most buttons
     [self.chkForge setEnabled:false];
-    [self.startBtn setEnabled:false];
-    [self.stopBtn setEnabled:true];
-    [self.configBrn setEnabled:false];
     [self.commandField setEnabled:true];
     [self.worldList setEnabled:false];
-    [self.reinstBtn setEnabled:false];
     [self.worldAddBtn setEnabled:false];
     [self.worldDelBtn setEnabled:false];
     //tell the user and all the plugins
-    [self _log:@"=== Starting server\n"];
+    //[self _log:@"=== Starting server\n"];
+    [self notify:@"Starting up.."];
     isTimerTicking=false;
+    [self.toolbar validateVisibleItems];
     if (self.plugins.state == 1) {
         for (NSObject<MCServManPlugin>*plug in loadedPlugins) {
             if ([plug respondsToSelector:@selector(onServerStart:)]) {
-                [self _log:[NSString stringWithFormat:@"=== Telling plugin %@ about it\n",[plug pluginName]]];
                 [plug onServerStart:serverConnection];
             }
         }}
@@ -59,8 +56,8 @@ static bool didLaunchServerForWorldCreation;
             [serverConnection sendServerMessage:@"stop"]; //if the sole purpose was to create the world and it's done, then stop it and proceed
             return;
         }
-       // NSLog(@"OnDone");
         NSBeep();
+        [self notify:@"Started with success"];
         if (self.plugins.state == 1) {
             for (NSObject<MCServManPlugin>*plug in loadedPlugins) { //tell plugins about the Done
                 if ([plug respondsToSelector:@selector(onServerDoneLoading:)]) {
@@ -70,6 +67,51 @@ static bool didLaunchServerForWorldCreation;
         }
         return;
     }
+
+    if ([line contains:@"logged in with entity id"]) {
+        NSString*userl = isChecked(self.chkForge) ? [line componentsSeparatedByString:@"]"][2] : [line componentsSeparatedByString:@"]"][1];
+        NSString*name =[ [userl componentsSeparatedByString:@"["][0] stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@" "]];
+        [self notify:[NSString stringWithFormat:@"%@ has logged in",name]];
+        if (self.plugins.state == 1) {
+            for (NSObject<MCServManPlugin>*plug in loadedPlugins) { //tell plugins about the new line
+                if ([plug respondsToSelector:@selector(onUserJoined:)]) {
+                    [plug onUserJoined:name];
+                }
+            }
+        }
+    return;
+    }
+
+if ([line contains:@"<"] && [line contains:@">"]) {
+ 
+    NSString*name =[ [line componentsSeparatedByString:@"<"][1] componentsSeparatedByString:@">"][0];
+    NSString*msg = [line componentsSeparatedByString:@">"][1];
+    msg = [msg stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@" \n"]];
+    [self notify:[NSString stringWithFormat:@"%@: %@",name,msg]];
+    if (self.plugins.state == 1) {
+        for (NSObject<MCServManPlugin>*plug in loadedPlugins) { //tell plugins about the new line
+            if ([plug respondsToSelector:@selector(onChat:sentBy:)]) {
+                [plug onChat:msg sentBy:name];
+            }
+        }
+    }
+    return;
+}
+    
+    if ([line contains:@"lost connection"]) {
+        NSString*userl = isChecked(self.chkForge) ? [line componentsSeparatedByString:@"]"][2] : [line componentsSeparatedByString:@"]"][1];
+        NSString*name =[ [userl componentsSeparatedByString:@" lost connection"][0] stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@" "]];
+        [self notify:[NSString stringWithFormat:@"%@ has logged off",name]];
+        if (self.plugins.state == 1) {
+            for (NSObject<MCServManPlugin>*plug in loadedPlugins) { //tell plugins about the new line
+                if ([plug respondsToSelector:@selector(onUserLeft:)]) {
+                    [plug onUserLeft:name];
+                }
+            }
+        }
+        return;
+    }
+
     if (self.plugins.state == 1) {
         for (NSObject<MCServManPlugin>*plug in loadedPlugins) { //tell plugins about the new line
             if ([plug respondsToSelector:@selector(onServerMessage:)]) {
@@ -78,6 +120,7 @@ static bool didLaunchServerForWorldCreation;
         }
     }
     
+    [self.toolbar validateVisibleItems];
 }
 - (void) MinecraftServerDidStop:(SMServer*)server{
     //server stopped
@@ -85,25 +128,23 @@ static bool didLaunchServerForWorldCreation;
         [self _panelUnpop:self.tskPnl];
         didLaunchServerForWorldCreation = false; //finish world creation if it was started
     }
+    [self.toolbar validateVisibleItems];
     [self _freshWorlds]; //repopulate the world list
-    [self.configBrn setEnabled:true]; //enable all the UI
     [self.chkForge setEnabled:true];
-    [self.startBtn setEnabled:true];
-    [self.stopBtn setEnabled:false];
     [self.commandField setEnabled:false];
     [self.worldList setEnabled:true];
     [self.worldAddBtn setEnabled:true];
     [self.worldDelBtn setEnabled:true];
-    [self.reinstBtn setEnabled:true];
     [currentConfig reloadConfigFromFile]; //reload config file
-    [self _log:@"=== Stopped server\n"]; // tell the user
+    //[self _log:@"=== Stopped server\n"]; // tell the user
+   if(!mustTerminate) [self notify:@"Stopped"];
     if (self.plugins.state == 1) { //and the plugins
         for (NSObject<MCServManPlugin>*plug in loadedPlugins) {
             if ([plug respondsToSelector:@selector(onServerStop:)]) {
-                [self _log:[NSString stringWithFormat:@"=== Telling plugin %@ about it\n",[plug pluginName]]];
                 [plug onServerStop:serverConnection];
             }
         }}
+    
     if(mustTerminate)[[NSApplication sharedApplication]terminate:self];
 }
 
@@ -113,9 +154,13 @@ static bool didLaunchServerForWorldCreation;
 objectValueForTableColumn:(NSTableColumn *) aTableColumn
                  row:(NSInteger ) rowIndex
 {
+    NSString *s = nil;
+    s = [[[loadedPlugins objectAtIndex:rowIndex]class]pluginName];
+    if (s == nil || [s isEqualToString:@""]) {
+        return @"< flawed plugin >";
+    }
     
-    
-    return [[loadedPlugins objectAtIndex:rowIndex]pluginName    ];
+    return s;
 }
 
 // just returns the number of plugins we have.
@@ -151,9 +196,11 @@ objectValueForTableColumn:(NSTableColumn *) aTableColumn
         if (remainMinutes > 10) {
             if(remainMinutes % 5 == 0){ // each 5min if > 10min
                 [serverConnection sendServerMessage:[NSString stringWithFormat:@"say [AUTO] Shutdown in %i min!",remainMinutes]];
+                [self notify:[NSString stringWithFormat:@"Shutdown in %i min",remainMinutes]];
             }
-        } else [serverConnection sendServerMessage:[NSString stringWithFormat:@"say [AUTO] Shutdown in %i min!",remainMinutes]]; //send each minute
-        
+        } else {[serverConnection sendServerMessage:[NSString stringWithFormat:@"say [AUTO] Shutdown in %i min!",remainMinutes]]; //send each minute
+            [self notify:[NSString stringWithFormat:@"Shutdown in %i min",remainMinutes]];
+        }
         [self performSelector:@selector(_timerCallback) withObject:nil afterDelay:60]; // requeue
     } else {
         [serverConnection stopServer];
@@ -182,6 +229,15 @@ objectValueForTableColumn:(NSTableColumn *) aTableColumn
     }
     [self.worldList setMenu:yourMenu];
     [self.worldList selectItemWithTitle:[currentConfig readSetting:@"level-name"]];
+}
+
+- (void) pluginLog:(NSString*)mess {
+    // i knew i will use this one day
+    NSString*sym =  [NSThread callStackSymbols][1];
+   NSString *class=  [[sym componentsSeparatedByString:@"-["][1]componentsSeparatedByString:@" "][0];
+    Class cls =  NSClassFromString(class);
+ 
+    [self _log:[NSString stringWithFormat:@"== %@ == %@ == \n",[cls pluginName],mess]];
 }
 - (void)_log:(NSString*)what{ //logging to console method (plugin allowed)
     NSClipView* cv = self.logField.enclosingScrollView.contentView;
@@ -215,7 +271,7 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     SUUpdater*u= [SUUpdater sharedUpdater];
-    
+    [self.toolbar setAllowsUserCustomization:false];
     [u setFeedURL:[NSURL URLWithString:@"http://vladkorotnev.github.com/soft/mcsm/sparkle.xml"]];
    
     // Load plugins
@@ -271,7 +327,7 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
     if ([PREFS objectForKey:@"xmx"] == nil) { //defaults
         [PREFS setObject:@"1G" forKey:@"xmx"];
     }
-    
+    [self.folderBtn setImage:[NSImage imageNamed:NSImageNameFolder]];
     [self _freshWorlds]; //populate world list
     
 }
@@ -460,12 +516,29 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
 - (NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication *)sender
 {
     // server is running, better cleanup...
-    if ([self.stopBtn isEnabled]) {
+    if (serverConnection.isRunning) {
         mustTerminate=true;
         [serverConnection stopServer];
         return NSTerminateLater;
     }
     return NSTerminateNow;
+}
+-(void) notify:(NSString*)wat {
+    //Initalize new notification
+    NSUserNotification *notification = [[NSUserNotification alloc] init];
+    //Set the title of the notification
+    [notification setTitle:@"Minecraft Server"];
+    //Set the text of the notification
+    [notification setInformativeText:wat];
+    //Set the time and date on which the nofication will be deliverd (for example 20 secons later than the current date and time)
+    [notification setDeliveryDate:[NSDate dateWithTimeInterval:0.1 sinceDate:[NSDate date]]];
+    //Set the sound, this can be either nil for no sound, NSUserNotificationDefaultSoundName for the default sound (tri-tone) and a string of a .caf file that is in the bundle (filname and extension)
+    [notification setSoundName:nil];
+    
+    //Get the default notification center
+    NSUserNotificationCenter *center = [NSUserNotificationCenter defaultUserNotificationCenter];
+    //Scheldule our NSUserNotification
+    [center scheduleNotification:notification];
 }
 - (IBAction)delWorld:(id)sender {
     // kill world
@@ -557,5 +630,35 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
         self.argField.stringValue = [PREFS objectForKey:@"args"];
     }
     [self _panelPop:self.mallocPanel];
+}
+-(BOOL)validateToolbarItem:(NSToolbarItem *)toolbarItem {
+    switch (toolbarItem.tag) {
+        case STARTSERVTAG:
+            return ((!serverConnection.isRunning) && [FM fileExistsAtPath:SERVER_JAR]);
+            break;
+            
+        case STOPSERVTAG:
+            return serverConnection.isRunning;
+            break;
+        
+        case REDOWNTAG:
+            return !serverConnection.isRunning;
+            break;
+            
+        case CONFSERVTAG:
+            return !serverConnection.isRunning;
+            break;
+            
+        case SERVFOLDERTAG:
+            return YES;
+            break;
+            
+        default:
+             return NO;
+            break;
+    }
+    
+    
+   
 }
 @end

@@ -4,12 +4,12 @@ r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/Info.plist TuneCraft/TuneCraft-Info.plist
 cProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TuneCraft-Prefix-gjyqcdbssaftyohafyowynggcsci/TuneCraft-Prefix.pch.pth TuneCraft/TuneCraft-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftMain.o /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftSettingViewController.o /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftSettingViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftMain.o /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft normal x86_64
 cGenerateDSYMFile /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle.dSYM /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft
-cCopyStringsFile /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/Resources/en.lproj/InfoPlist.strings TuneCraft/en.lproj/InfoPlist.strings
 cCompileXIB /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftSettingViewController.xib
+cCopyStringsFile /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/Resources/en.lproj/InfoPlist.strings TuneCraft/en.lproj/InfoPlist.strings
 cTouch /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
@@ -38,9 +38,9 @@ t1352710978
 s52464
 
 N/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/MCServManPlugin.h
-c000000005139D2F90000000000000486
-t1362744057
-s1158
+c00000000514A98C80000000000000535
+t1363843272
+s1333
 
 N/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraft-Prefix.pch
 c000000005135DD260000000000000095
@@ -49,14 +49,14 @@ s149
 i<Cocoa/Cocoa.h>
 
 N/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.h
-c0000000051387C030000000000000320
-t1362656259
-s800
+c00000000514A9A790000000000000153
+t1363843705
+s339
 
 N/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m
-c000000005145B6F5000000000000236B
-t1363523317
-s9067
+c00000000514A9CC9000000000000215D
+t1363844297
+s8541
 
 N/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftSettingViewController.h
 c000000005138749500000000000001BE
@@ -84,20 +84,20 @@ t1350828845
 s21667
 
 N/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle
-t1363521980
+t1363845703
 s102
 
 N/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle.dSYM
-t1363521980
+t1363845703
 s102
 
 N/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/Info.plist
-t1363521979
-s1348
+t1363523343
+s1350
 
 N/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft
-t1363521980
-s32224
+t1363845703
+s28096
 
 N/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/Resources/TuneCraftSettingViewController.nib
 t1362895859
@@ -113,8 +113,8 @@ t1362895857
 s281
 
 N/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftMain.o
-t1363521980
-s60784
+t1363845703
+s60580
 
 N/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftSettingViewController.o
 t1363521980
@@ -135,11 +135,11 @@ s1046
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0f43bb8feef5b641^c0e9c98feef5b641^---0#1#0#--18"Check dependencies36"5ABA3FC2-6FCD-402E-B3CA-41E3FC7BC5C2-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies3fe287cbdbfab641^9a5d8bcbdbfab641^---0#1#0#--18"Check dependencies36"30B3AF1F-5EF9-43C4-8858-A379BB137B9D-
 
 CCompileC build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftMain.o /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s385216143.812556
-e385216143.898638
+s385538502.836982
+e385538503.070827
 r1
 xCompileC
 xbuild/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftMain.o
@@ -148,14 +148,14 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m:171:17: warning: incompatible pointer types initializing 'NSArray *' with an expression of type 'iTunesTrack *' [-Wincompatible-pointer-types]
+o/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m:170:17: warning: incompatible pointer types initializing 'NSArray *' with an expression of type 'iTunesTrack *' [-Wincompatible-pointer-types]
 o        NSArray*findings = [[[[[app sources]objectAtIndex:0]playlists]objectAtIndex:0]searchFor:cmdargs only:iTunesESrAAll];
 o                ^          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m:188:23: warning: unused variable 'app' [-Wunused-variable]
-o    iTunesApplication*app = [SBApplication applicationWithBundleIdentifier:@"com.apple.iTunes"];
-o                      ^
+o/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m:187:27: warning: unused variable 'app' [-Wunused-variable]
+o        iTunesApplication*app = [SBApplication applicationWithBundleIdentifier:@"com.apple.iTunes"];
+o                          ^
 o2 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.mfb1fd08feef5b641^6d3ae68feef5b641^-742"/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m:171:17: warning: incompatible pointer types initializing 'NSArray *' with an expression of type 'iTunesTrack *' [-Wincompatible-pointer-types]        NSArray*findings = [[[[[app sources]objectAtIndex:0]playlists]objectAtIndex:0]searchFor:cmdargs only:iTunesESrAAll];                ^          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m:188:23: warning: unused variable 'app' [-Wunused-variable]    iTunesApplication*app = [SBApplication applicationWithBundleIdentifier:@"com.apple.iTunes"];                      ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@94"Incompatible pointer types initializing 'NSArray *' with an expression of type 'iTunesTrack *'-385216143#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@89"file://localhost/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m0000000000000000^170#16#170#16#7423#0#14"Semantic Issue1(3@89"file://localhost/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m0000000000000000^170#27#170#123#7434#95#-2@21"Unused variable 'app'-385216143#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@89"file://localhost/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m0000000000000000^187#22#187#22#8413#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@89"file://localhost/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m0000000000000000^3215"CompileC build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftMain.o TuneCraft/TuneCraftMain.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/MCServMan/TuneCraft    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/TuneCraft-generated-files.hmap -I/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/TuneCraft-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/TuneCraft-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/TuneCraft-project-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/DerivedSources -F/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/TuneCraft -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TuneCraft-Prefix-gjyqcdbssaftyohafyowynggcsci/TuneCraft-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftMain.d --serialize-diagnostics /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftMain.dia -c /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m -o /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftMain.o36"6F181712-1278-4853-831F-B67C52E2E12E-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m425bd6c6d9fab641^cd2012c7d9fab641^-750"/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m:170:17: warning: incompatible pointer types initializing 'NSArray *' with an expression of type 'iTunesTrack *' [-Wincompatible-pointer-types]        NSArray*findings = [[[[[app sources]objectAtIndex:0]playlists]objectAtIndex:0]searchFor:cmdargs only:iTunesESrAAll];                ^          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m:187:27: warning: unused variable 'app' [-Wunused-variable]        iTunesApplication*app = [SBApplication applicationWithBundleIdentifier:@"com.apple.iTunes"];                          ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@94"Incompatible pointer types initializing 'NSArray *' with an expression of type 'iTunesTrack *'-385538503#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@89"file://localhost/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m0000000000000000^169#16#169#16#6922#0#14"Semantic Issue1(3@89"file://localhost/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m0000000000000000^169#27#169#123#6933#95#-2@21"Unused variable 'app'-385538503#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@89"file://localhost/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m0000000000000000^186#26#186#26#7876#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@89"file://localhost/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m0000000000000000^3215"CompileC build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftMain.o TuneCraft/TuneCraftMain.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/MCServMan/TuneCraft    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/TuneCraft-generated-files.hmap -I/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/TuneCraft-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/TuneCraft-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/TuneCraft-project-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/DerivedSources -F/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/TuneCraft -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TuneCraft-Prefix-gjyqcdbssaftyohafyowynggcsci/TuneCraft-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftMain.d --serialize-diagnostics /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftMain.dia -c /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m -o /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftMain.o36"D1169398-2BB1-4FDC-BBE9-7C82E23E52A6-
 
 CCompileC build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftSettingViewController.o /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftSettingViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s385214780.148284
@@ -188,23 +188,23 @@ xTuneCraft/en.lproj/InfoPlist.strings
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy TuneCraft/en.lproj/InfoPlist.stringsfda3b7725becb641^b878b8725becb641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/en.lproj/InfoPlist.strings0000000000000000^422"CopyStringsFile build/Release/TuneCraft.bundle/Contents/Resources/en.lproj/InfoPlist.strings TuneCraft/en.lproj/InfoPlist.strings    cd /Users/tigra/Desktop/Coding/MCServMan/TuneCraft    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/Resources/en.lproj -- TuneCraft/en.lproj/InfoPlist.strings36"021E30BC-7084-4FE6-86BD-200B18BE8DDF-
 
 CGenerateDSYMFile /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle.dSYM /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft
-s385216143.950861
-e385216143.996170
+s385538503.121448
+e385538503.148594
 r1
 xGenerateDSYMFile
 x/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle.dSYM
 x/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Generate /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle.dSYM5f7af38feef5b641^cd04ff8feef5b641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle.dSYM/0000000000000000^455"GenerateDSYMFile build/Release/TuneCraft.bundle.dSYM build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft    cd /Users/tigra/Desktop/Coding/MCServMan/TuneCraft    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft -o /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle.dSYM36"8005FF47-6D6C-46AE-9834-5B9D5D79A5DD-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Generate /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle.dSYMea241fc7d9fab641^cc0926c7d9fab641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle.dSYM/0000000000000000^455"GenerateDSYMFile build/Release/TuneCraft.bundle.dSYM build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft    cd /Users/tigra/Desktop/Coding/MCServMan/TuneCraft    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft -o /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle.dSYM36"D48E4E66-047F-44CA-AA6A-806D073FF5DE-
 
 CLd /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft normal x86_64
-s385216143.909233
-e385216143.944126
+s385538503.077716
+e385538503.114700
 r1
 xLd
 x/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft
 xnormal
 xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Link /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft20d5e88feef5b641^c8b1f18feef5b641^---0#0#0#--946"Ld build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft normal x86_64    cd /Users/tigra/Desktop/Coding/MCServMan/TuneCraft    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/TuneCraft -filelist /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraft.LinkFileList -mmacosx-version-min=10.8 -fobjc-link-runtime -framework ScriptingBridge -framework Cocoa -framework CoreFoundation -o /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft36"F9119449-F9D3-49AF-8D7E-DC6FFD611A53-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Link /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft62f513c7d9fab641^0b5d1dc7d9fab641^---0#0#0#--946"Ld build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft normal x86_64    cd /Users/tigra/Desktop/Coding/MCServMan/TuneCraft    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/TuneCraft -filelist /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraft.LinkFileList -mmacosx-version-min=10.8 -fobjc-link-runtime -framework ScriptingBridge -framework Cocoa -framework CoreFoundation -o /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft36"F1496E94-2525-49B1-88E5-9D229997F8B7-
 
 CProcessInfoPlistFile /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/Info.plist TuneCraft/TuneCraft-Info.plist
 s385216143.795309
@@ -242,10 +242,10 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile TuneCraft/TuneCraft-Prefix.pch096b833be9f5b641^c537243ce9f5b641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraft-Prefix.pch0000000000000000^3240"ProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TuneCraft-Prefix-gjyqcdbssaftyohafyowynggcsci/TuneCraft-Prefix.pch.pth TuneCraft/TuneCraft-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/MCServMan/TuneCraft    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/TuneCraft-generated-files.hmap -I/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/TuneCraft-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/TuneCraft-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/TuneCraft-project-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/TuneCraft.build/Release/TuneCraft.build/DerivedSources -F/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/TuneCraft --serialize-diagnostics /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TuneCraft-Prefix-gjyqcdbssaftyohafyowynggcsci/TuneCraft-Prefix.pch.dia -c /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraft-Prefix.pch -o /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TuneCraft-Prefix-gjyqcdbssaftyohafyowynggcsci/TuneCraft-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TuneCraft-Prefix-gjyqcdbssaftyohafyowynggcsci/TuneCraft-Prefix.pch.d36"EEB5F7B9-F7A7-4FF5-8723-345AB0516A6F-
 
 CTouch /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle
-s385216144.011725
-e385216144.016176
+s385538503.164552
+e385538503.169664
 r1
 xTouch
 x/Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Touch /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle410d0390eef5b641^4e280490eef5b641^---0#0#0#--193"Touch build/Release/TuneCraft.bundle    cd /Users/tigra/Desktop/Coding/MCServMan/TuneCraft    /usr/bin/touch -c /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle36"899B5F42-7814-46C0-BD7E-91B28B290104-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Touch /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle772c2ac7d9fab641^f86e2bc7d9fab641^---0#0#0#--193"Touch build/Release/TuneCraft.bundle    cd /Users/tigra/Desktop/Coding/MCServMan/TuneCraft    /usr/bin/touch -c /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle36"A33B33C7-DD5B-4636-963A-1960C412A27F-
 

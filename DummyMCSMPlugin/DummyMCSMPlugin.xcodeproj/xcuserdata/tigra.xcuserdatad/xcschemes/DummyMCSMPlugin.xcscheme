@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8238F22416E8B8320086E35E"
+               BlueprintIdentifier = "822EF45816FAC3AA00C92B22"
                BuildableName = "DummyMCSMPlugin.bundle"
                BlueprintName = "DummyMCSMPlugin"
                ReferencedContainer = "container:DummyMCSMPlugin.xcodeproj">

@@ -17,6 +17,12 @@
 #define SERVER_JAR [OUR_FOLDER stringByAppendingPathComponent:@"minecraft_server.jar"] 
 #define FORGE_ZIP [OUR_FOLDER stringByAppendingPathComponent:@"forge.zip"] 
 #define CURWORLD [OUR_FOLDER stringByAppendingPathComponent:@"world"]
+
+#define STARTSERVTAG 1
+#define STOPSERVTAG 2
+#define CONFSERVTAG 3
+#define REDOWNTAG 4
+#define SERVFOLDERTAG 5
 #endif
 
 static bool isChecked(NSButton* chk){ return (chk.state ==1 ) ? YES : NO;}
