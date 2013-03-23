@@ -34,6 +34,7 @@
 - (IBAction)clearLog:(id)sender;
 @property (assign) IBOutlet NSTextField *afterTimeField;
 - (IBAction)pluginDir:(id)sender;
+- (IBAction)XCTemplate:(id)sender;
 @property (assign) IBOutlet NSButtonCell *stopAfter;
 @property (assign) IBOutlet NSButtonCell *stopRightNow;
 - (IBAction)unpopCfg:(id)sender;

@@ -12,6 +12,7 @@
 #define MCSERVER_URL @"https://s3.amazonaws.com/MinecraftDownload/launcher/minecraft_server.jar"
 #define MCFORGE_URL @"http://files.minecraftforge.net/minecraftforge/minecraftforge-universal-latest.zip"
 #define MCFORGE_AD_URL @"http://adf.ly/673885/http://minecraftforge.net/"
+#define XCT_URL @"http://vladkorotnev.github.com/soft/mcsm/xcode-mcsm.zip"
 #define OUR_FOLDER [@"~/Library/Application Support/MinecraftServer" stringByExpandingTildeInPath]
 #define FM [NSFileManager defaultManager]
 #define SERVER_JAR [OUR_FOLDER stringByAppendingPathComponent:@"minecraft_server.jar"] 

@@ -615,6 +615,10 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
     }
     system([[NSString stringWithFormat:@"open '%@'",plugInsPath]UTF8String]);
 }
+
+- (IBAction)XCTemplate:(id)sender {
+    [[NSWorkspace sharedWorkspace]openURL:[NSURL URLWithString:XCT_URL]  ];
+}
 - (IBAction)SaveMemalloc:(id)sender { //save prefs
     [PREFS setObject:self.XmsField.stringValue forKey:@"xms"];
     [PREFS setObject:self.XmxField.stringValue forKey:@"xmx"];

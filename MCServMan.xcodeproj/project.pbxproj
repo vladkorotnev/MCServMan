@@ -108,11 +108,13 @@
 		821D964516E7189000681714 /* SMMinecraftConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMMinecraftConfig.h; sourceTree = "<group>"; };
 		821D964616E7189000681714 /* SMMinecraftConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMMinecraftConfig.m; sourceTree = "<group>"; };
 		821D964816E71A1A00681714 /* MCSettingKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MCSettingKeys.plist; sourceTree = "<group>"; };
+		821D9E5716FD88F8009AE876 /* MCSM.xctemplate */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MCSM.xctemplate; sourceTree = "<group>"; };
+		821D9E5816FD8B7C009AE876 /* XcodeTemplate.pmdoc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = XcodeTemplate.pmdoc; sourceTree = "<group>"; };
 		822EF44916FAB9C600C92B22 /* av_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = av_pause.png; sourceTree = "<group>"; };
 		822EF44A16FAB9C600C92B22 /* av_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = av_play.png; sourceTree = "<group>"; };
 		822EF46E16FAC3AA00C92B22 /* DummyMCSMPlugin.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DummyMCSMPlugin.xcodeproj; path = DummyMCSMPlugin/DummyMCSMPlugin.xcodeproj; sourceTree = "<group>"; };
 		822EF48616FAD58000C92B22 /* NSCreeper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NSCreeper.png; sourceTree = "<group>"; };
-		822EF48816FAD70200C92B22 /* CreeperMac.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = CreeperMac.icns; sourceTree = "<group>"; };
+		822EF48816FAD70200C92B22 /* CreeperMac.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CreeperMac.icns; path = ../CreeperMac.icns; sourceTree = "<group>"; };
 		822EF48A16FAD89E00C92B22 /* NSWhiteCreeper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NSWhiteCreeper.png; sourceTree = "<group>"; };
 		8238F21B16E8B3180086E35E /* MCServManPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCServManPlugin.h; sourceTree = "<group>"; };
 		8255D4B016E5083B00BDFD7D /* MCServMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCServMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -190,6 +192,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		821D9E5916FD8C90009AE876 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				822EF46E16FAC3AA00C92B22 /* DummyMCSMPlugin.xcodeproj */,
+				82E8134416E614A6003340B9 /* TuneCraft.xcodeproj */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+		821D9E5A16FD8CA2009AE876 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				822EF48816FAD70200C92B22 /* CreeperMac.icns */,
+				822EF48A16FAD89E00C92B22 /* NSWhiteCreeper.png */,
+				822EF48616FAD58000C92B22 /* NSCreeper.png */,
+				822EF44916FAB9C600C92B22 /* av_pause.png */,
+				822EF44A16FAB9C600C92B22 /* av_play.png */,
+				82CF5FA816EC5CA400939E2C /* sparkle.png */,
+			);
+			name = Graphics;
+			path = MCServMan;
+			sourceTree = "<group>";
+		};
+		821D9E5B16FD8CB2009AE876 /* Xcode Template */ = {
+			isa = PBXGroup;
+			children = (
+				821D9E5816FD8B7C009AE876 /* XcodeTemplate.pmdoc */,
+				821D9E5716FD88F8009AE876 /* MCSM.xctemplate */,
+			);
+			name = "Xcode Template";
+			path = MCServMan;
+			sourceTree = "<group>";
+		};
+		821D9E5C16FD8CD3009AE876 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				82E8132516E5DE6D003340B9 /* MFTask */,
+				82E8130C16E5D0F0003340B9 /* ASI */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		821D9E5D16FD8CE3009AE876 /* Server connection */ = {
+			isa = PBXGroup;
+			children = (
+				82E8131516E5DCAC003340B9 /* SMServer.h */,
+				82E8131616E5DCAC003340B9 /* SMServer.m */,
+			);
+			name = "Server connection";
+			sourceTree = "<group>";
+		};
+		821D9E5E16FD8CF5009AE876 /* Server configuration */ = {
+			isa = PBXGroup;
+			children = (
+				82AFF4B716E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.h */,
+				82AFF4B816E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.m */,
+				82AFF4B916E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.xib */,
+				821D964516E7189000681714 /* SMMinecraftConfig.h */,
+				821D964616E7189000681714 /* SMMinecraftConfig.m */,
+			);
+			name = "Server configuration";
+			sourceTree = "<group>";
+		};
+		821D9E5F16FD8D08009AE876 /* General application */ = {
+			isa = PBXGroup;
+			children = (
+				8255D4C516E5083B00BDFD7D /* SMAppDelegate.h */,
+				8255D4C616E5083B00BDFD7D /* SMAppDelegate.m */,
+				8255D4C816E5083C00BDFD7D /* MainMenu.xib */,
+			);
+			name = "General application";
+			sourceTree = "<group>";
+		};
+		821D9E6016FD8D13009AE876 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				8238F21B16E8B3180086E35E /* MCServManPlugin.h */,
+				82E812E716E5D03F003340B9 /* Defines.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
 		822EF46F16FAC3AA00C92B22 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,9 +285,9 @@
 		8255D4A716E5083B00BDFD7D = {
 			isa = PBXGroup;
 			children = (
-				822EF48816FAD70200C92B22 /* CreeperMac.icns */,
-				822EF46E16FAC3AA00C92B22 /* DummyMCSMPlugin.xcodeproj */,
-				82E8134416E614A6003340B9 /* TuneCraft.xcodeproj */,
+				821D9E5B16FD8CB2009AE876 /* Xcode Template */,
+				821D9E5916FD8C90009AE876 /* Plugins */,
+				821D9E5A16FD8CA2009AE876 /* Graphics */,
 				8255D4B916E5083B00BDFD7D /* MCServMan */,
 				8255D4B216E5083B00BDFD7D /* Frameworks */,
 				8255D4B116E5083B00BDFD7D /* Products */,
@@ -240,27 +324,11 @@
 		8255D4B916E5083B00BDFD7D /* MCServMan */ = {
 			isa = PBXGroup;
 			children = (
-				8238F21B16E8B3180086E35E /* MCServManPlugin.h */,
-				821D964816E71A1A00681714 /* MCSettingKeys.plist */,
-				822EF48A16FAD89E00C92B22 /* NSWhiteCreeper.png */,
-				822EF48616FAD58000C92B22 /* NSCreeper.png */,
-				822EF44916FAB9C600C92B22 /* av_pause.png */,
-				822EF44A16FAB9C600C92B22 /* av_play.png */,
-				82E812E716E5D03F003340B9 /* Defines.h */,
-				82AFF4B716E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.h */,
-				82AFF4B816E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.m */,
-				82AFF4B916E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.xib */,
-				82CF5FA816EC5CA400939E2C /* sparkle.png */,
-				8255D4C516E5083B00BDFD7D /* SMAppDelegate.h */,
-				8255D4C616E5083B00BDFD7D /* SMAppDelegate.m */,
-				82CF5FA516EC584C00939E2C /* dsa_pub.pem */,
-				821D964516E7189000681714 /* SMMinecraftConfig.h */,
-				821D964616E7189000681714 /* SMMinecraftConfig.m */,
-				82E8131516E5DCAC003340B9 /* SMServer.h */,
-				82E8131616E5DCAC003340B9 /* SMServer.m */,
-				8255D4C816E5083C00BDFD7D /* MainMenu.xib */,
-				82E8132516E5DE6D003340B9 /* MFTask */,
-				82E8130C16E5D0F0003340B9 /* ASI */,
+				821D9E6016FD8D13009AE876 /* Headers */,
+				821D9E5F16FD8D08009AE876 /* General application */,
+				821D9E5E16FD8CF5009AE876 /* Server configuration */,
+				821D9E5D16FD8CE3009AE876 /* Server connection */,
+				821D9E5C16FD8CD3009AE876 /* Tools */,
 				8255D4BA16E5083B00BDFD7D /* Supporting Files */,
 			);
 			path = MCServMan;
@@ -269,6 +337,8 @@
 		8255D4BA16E5083B00BDFD7D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				821D964816E71A1A00681714 /* MCSettingKeys.plist */,
+				82CF5FA516EC584C00939E2C /* dsa_pub.pem */,
 				82E8131316E5D4C0003340B9 /* libz.dylib */,
 				82E8131116E5D4BA003340B9 /* SystemConfiguration.framework */,
 				82E8130D16E5D4B3003340B9 /* libxml2.2.dylib */,
