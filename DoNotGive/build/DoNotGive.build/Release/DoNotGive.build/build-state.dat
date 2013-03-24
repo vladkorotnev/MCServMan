@@ -1,0 +1,202 @@
+TDoNotGive
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/Info.plist DoNotGive/DoNotGive-Info.plist
+cProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DoNotGive-Prefix-edwuoewtmtfjctfvprvnherzatxn/DoNotGive-Prefix.pch.pth DoNotGive/DoNotGive-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DGPreferencesViewController.o /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DGPreferencesViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DoNotGive.o /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DoNotGive.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/MacOS/DoNotGive normal x86_64
+cGenerateDSYMFile /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle.dSYM /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/MacOS/DoNotGive
+cCopyStringsFile /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/Resources/en.lproj/InfoPlist.strings DoNotGive/en.lproj/InfoPlist.strings
+cCompileXIB /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DGPreferencesViewController.xib
+cTouch /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000514303B000000000000000AA
+t1363346352
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c0000000050A0BB4100000000000025C8
+t1352710977
+s9672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005143039F00000000000C4BAC
+t1363346335
+s805804
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000050A0BB4100000000000015F7
+t1352710977
+s5623
+
+N/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DGPreferencesViewController.m
+c00000000514D703D00000000000003ED
+t1364029501
+s1005
+
+N/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DGPreferencesViewController.xib
+c00000000514D668B000000000000413F
+t1364027019
+s16703
+
+N/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DoNotGive-Prefix.pch
+c00000000514D64F2000000000000009F
+t1364026610
+s159
+i<Foundation/Foundation.h>
+
+N/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DoNotGive.m
+c00000000514E82C70000000000000BBE
+t1364099783
+s3006
+
+N/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/en.lproj/InfoPlist.strings
+c00000000514D64F2000000000000002D
+t1364026610
+s45
+
+N/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DGPreferencesViewController.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DoNotGive.LinkFileList
+c00000000514E8B610000000000000112
+t1364101985
+s274
+
+N/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DoNotGive.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle.dSYM
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/Info.plist
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/MacOS/DoNotGive
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/Resources/DGPreferencesViewController.nib
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DoNotGive-Prefix-edwuoewtmtfjctfvprvnherzatxn/DoNotGive-Prefix.pch.pth
+t2
+s0
+
+NDoNotGive/DoNotGive-Info.plist
+c00000000514D64F200000000000003D3
+t1364026610
+s979
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies69c349e1c2feb641^fd1576e1c2feb641^---0#1#0#--18"Check dependencies36"D49CC8DD-46F7-41EB-A118-95DC2885CBD6-
+
+CCompileC build/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DGPreferencesViewController.o /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DGPreferencesViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385794786.127104
+e385794786.322052
+r1
+xCompileC
+xbuild/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DGPreferencesViewController.o
+x/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DGPreferencesViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DGPreferencesViewController.m04ad20e2c2feb641^e77352e2c2feb641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DGPreferencesViewController.m0000000000000000^3249"CompileC build/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DGPreferencesViewController.o DoNotGive/DGPreferencesViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/MCServMan/DoNotGive    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/DoNotGive-generated-files.hmap -I/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/DoNotGive-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/DoNotGive-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/DoNotGive-project-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/DerivedSources -F/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DoNotGive-Prefix-edwuoewtmtfjctfvprvnherzatxn/DoNotGive-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DGPreferencesViewController.d --serialize-diagnostics /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DGPreferencesViewController.dia -c /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DGPreferencesViewController.m -o /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DGPreferencesViewController.o36"AF1A52D0-F90E-412D-8E87-3EEC18328E3D-
+
+CCompileC build/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DoNotGive.o /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DoNotGive.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385794786.127131
+e385794786.333277
+r1
+xCompileC
+xbuild/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DoNotGive.o
+x/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DoNotGive.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DoNotGive.m79ad20e2c2feb641^2f5155e2c2feb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DoNotGive.m0000000000000000^3141"CompileC build/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DoNotGive.o DoNotGive/DoNotGive.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/MCServMan/DoNotGive    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/DoNotGive-generated-files.hmap -I/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/DoNotGive-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/DoNotGive-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/DoNotGive-project-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/DerivedSources -F/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DoNotGive-Prefix-edwuoewtmtfjctfvprvnherzatxn/DoNotGive-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DoNotGive.d --serialize-diagnostics /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DoNotGive.dia -c /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DoNotGive.m -o /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DoNotGive.o36"3193116E-71FC-4DF0-BB9D-DA63B85668AC-
+
+CCompileXIB /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DGPreferencesViewController.xib
+s385794786.423904
+e385794786.844411
+r1
+xCompileXIB
+x/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DGPreferencesViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compiling /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DGPreferencesViewController.xibd8b66ce2c2feb641^863ad8e2c2feb641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DGPreferencesViewController.xib0000000000000000^661"CompileXIB DoNotGive/DGPreferencesViewController.xib    cd /Users/tigra/Desktop/Coding/MCServMan/DoNotGive    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/Resources/DGPreferencesViewController.nib /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DGPreferencesViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"5BCF0FF7-BA9C-47E5-9481-88D14BC786F5-
+
+CCopyStringsFile /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/Resources/en.lproj/InfoPlist.strings DoNotGive/en.lproj/InfoPlist.strings
+s385794786.423046
+e385794786.425636
+r1
+xCopyStringsFile
+x/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/Resources/en.lproj/InfoPlist.strings
+xDoNotGive/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy DoNotGive/en.lproj/InfoPlist.stringsb2666ce2c2feb641^27f66ce2c2feb641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/en.lproj/InfoPlist.strings0000000000000000^422"CopyStringsFile build/Release/DoNotGive.bundle/Contents/Resources/en.lproj/InfoPlist.strings DoNotGive/en.lproj/InfoPlist.strings    cd /Users/tigra/Desktop/Coding/MCServMan/DoNotGive    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/Resources/en.lproj -- DoNotGive/en.lproj/InfoPlist.strings36"6D382D8F-2857-40BC-BADB-CC43A935E6C4-
+
+CGenerateDSYMFile /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle.dSYM /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/MacOS/DoNotGive
+s385794786.379873
+e385794786.413635
+r1
+xGenerateDSYMFile
+x/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle.dSYM
+x/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/MacOS/DoNotGive
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Generate /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle.dSYM724d61e2c2feb641^54e369e2c2feb641^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle.dSYM000000000080d041^455"GenerateDSYMFile build/Release/DoNotGive.bundle.dSYM build/Release/DoNotGive.bundle/Contents/MacOS/DoNotGive    cd /Users/tigra/Desktop/Coding/MCServMan/DoNotGive    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/MacOS/DoNotGive -o /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle.dSYM36"37AF7663-DC61-4242-ABE5-47C524F12AEE-
+
+CLd /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/MacOS/DoNotGive normal x86_64
+s385794786.340069
+e385794786.373115
+r1
+xLd
+x/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/MacOS/DoNotGive
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Link /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/MacOS/DoNotGive8a1f57e2c2feb641^34845fe2c2feb641^---0#0#0#--865"Ld build/Release/DoNotGive.bundle/Contents/MacOS/DoNotGive normal x86_64    cd /Users/tigra/Desktop/Coding/MCServMan/DoNotGive    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release -F/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release -filelist /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DoNotGive.LinkFileList -mmacosx-version-min=10.8 -fobjc-link-runtime -framework Cocoa -framework Foundation -o /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/MacOS/DoNotGive36"2C67DF72-AF9D-4472-B47B-F88FFBB40C2E-
+
+CProcessInfoPlistFile /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/Info.plist DoNotGive/DoNotGive-Info.plist
+s385794785.467445
+e385794785.480207
+r1
+xProcessInfoPlistFile
+x/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/Info.plist
+xDoNotGive/DoNotGive-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Process DoNotGive/DoNotGive-Info.plist38bd77e1c2feb641^85ee7ae1c2feb641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DoNotGive-Info.plist0000000000000000^358"ProcessInfoPlistFile build/Release/DoNotGive.bundle/Contents/Info.plist DoNotGive/DoNotGive-Info.plist    cd /Users/tigra/Desktop/Coding/MCServMan/DoNotGive    builtin-infoPlistUtility DoNotGive/DoNotGive-Info.plist -expandbuildsettings -platform macosx -o /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/Info.plist36"71FD574B-9EEA-4A5C-B77A-519C4BB00E6C-
+
+CProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DoNotGive-Prefix-edwuoewtmtfjctfvprvnherzatxn/DoNotGive-Prefix.pch.pth DoNotGive/DoNotGive-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385794785.488248
+e385794786.120267
+r1
+xProcessPCH
+x/var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DoNotGive-Prefix-edwuoewtmtfjctfvprvnherzatxn/DoNotGive-Prefix.pch.pth
+xDoNotGive/DoNotGive-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile DoNotGive/DoNotGive-Prefix.pch2a1c7de1c2feb641^34d61ee2c2feb641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DoNotGive-Prefix.pch0000000000000000^3190"ProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DoNotGive-Prefix-edwuoewtmtfjctfvprvnherzatxn/DoNotGive-Prefix.pch.pth DoNotGive/DoNotGive-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/MCServMan/DoNotGive    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/DoNotGive-generated-files.hmap -I/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/DoNotGive-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/DoNotGive-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/DoNotGive-project-headers.hmap -I/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/DoNotGive.build/Release/DoNotGive.build/DerivedSources -F/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release --serialize-diagnostics /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DoNotGive-Prefix-edwuoewtmtfjctfvprvnherzatxn/DoNotGive-Prefix.pch.dia -c /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DoNotGive-Prefix.pch -o /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DoNotGive-Prefix-edwuoewtmtfjctfvprvnherzatxn/DoNotGive-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DoNotGive-Prefix-edwuoewtmtfjctfvprvnherzatxn/DoNotGive-Prefix.pch.d36"06B64DCF-4DE9-428C-A581-758F605BBDD7-
+
+CTouch /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle
+s385794786.852726
+e385794786.858033
+r1
+xTouch
+x/Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Touch /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundlea260dae2c2feb641^e6b0dbe2c2feb641^---0#0#0#--193"Touch build/Release/DoNotGive.bundle    cd /Users/tigra/Desktop/Coding/MCServMan/DoNotGive    /usr/bin/touch -c /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle36"7FC62BE9-176A-47AF-8D05-31BFF8C7B1F6-
+

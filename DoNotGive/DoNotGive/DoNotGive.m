@@ -25,6 +25,7 @@
 @implementation DoNotGive
 static bool shouldKick=false;
 static bool shouldClear=false;
+static bool isReady=false;
 static SMAppDelegate<SMAppDelegatePluginsAllowedProtocol>*del=nil;
 static SMServer<SMServerPluginsAllowedMethodsProtocol>*srv = nil;
 static DGPreferencesViewController*prefs=nil;
@@ -59,10 +60,15 @@ static DGPreferencesViewController*prefs=nil;
 - (void) onServerStop:(SMServer<SMServerPluginsAllowedMethodsProtocol>*)server{
 	/* the server is destroyed */
     srv=nil; //no server exists
+    isReady=false;
 }
-
+- (void) onServerDoneLoading:(SMServer<SMServerPluginsAllowedMethodsProtocol>*)server{
+    //on server Done loading
+    isReady=true;
+}
 - (void) onServerMessage: (NSString*)msg{
 	/* place code to manually parse server log lines */
+    if(!isReady)return;
     if (![msg contains:@"Given"]&&![msg contains:@"to"]) {
         return;
     }
@@ -77,6 +83,7 @@ static DGPreferencesViewController*prefs=nil;
        split = [msg componentsSeparatedByString:@"]"];
         event = split[1];
     }
+    
     // get the bad player
      NSString*badPlayer = [event componentsSeparatedByString:@" to "][1];
     if (shouldClear) {

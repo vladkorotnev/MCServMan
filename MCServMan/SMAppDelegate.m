@@ -27,8 +27,10 @@
 @implementation SMAppDelegate
 static bool mustTerminate;
 static bool isTimerTicking;
+static bool isDisplayingForge=false;
 static int remainMinutes;
 static bool didLaunchServerForWorldCreation;
+static bool mustStartAfterForgeDL=false;
 #pragma mark -Server delegate
 - (void) MinecraftServerDidStart:(SMServer*)server{
     //server start, better disable most buttons
@@ -98,7 +100,7 @@ if ([line contains:@"<"] && [line contains:@">"]) {
     return;
 }
     
-    if ([line contains:@"lost connection"]) {
+    if ([line contains:@"lost connection"] && ![line contains:@"/"]) {
         NSString*userl = isChecked(self.chkForge) ? [line componentsSeparatedByString:@"]"][2] : [line componentsSeparatedByString:@"]"][1];
         NSString*name =[ [userl componentsSeparatedByString:@" lost connection"][0] stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@" "]];
         [self notify:[NSString stringWithFormat:@"%@ has logged off",name]];
@@ -111,7 +113,18 @@ if ([line contains:@"<"] && [line contains:@">"]) {
         }
         return;
     }
-
+    if ([line contains:@"crash report has been saved to"]) {
+        NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
+        [msgBox setMessageText: @"It seems the server has crashed!"];
+        [msgBox setInformativeText:@"Would you like to kill it?"];
+        [msgBox addButtonWithTitle: @"Yes"];
+        [msgBox addButtonWithTitle:@"No"];
+        NSInteger rCode = [msgBox runModal];
+        if (rCode == NSAlertFirstButtonReturn) {
+            [serverConnection killServer];
+        }
+        return;
+    }
     if (self.plugins.state == 1) {
         for (NSObject<MCServManPlugin>*plug in loadedPlugins) { //tell plugins about the new line
             if ([plug respondsToSelector:@selector(onServerMessage:)]) {
@@ -255,7 +268,9 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
     return NO; //no edit
 }
 -(void)_panelUnpop:(NSPanel*)panel{ //drop-in
-    [[NSApplication sharedApplication] stopModal];
+    if (!isDisplayingForge) {
+        [[NSApplication sharedApplication] stopModal];
+    }
     [panel orderOut:self];
     [ NSApp endSheet:panel returnCode:0 ] ;
 }
@@ -263,17 +278,38 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
 {
     [super dealloc];
 }
-
+- (void)handleURLEvent:(NSAppleEventDescriptor*)event withReplyEvent:(NSAppleEventDescriptor*)replyEvent
+{
+    NSString* url = [[event paramDescriptorForKeyword:keyDirectObject] stringValue];
+    if ([url.lastPathComponent isEqualToString:@"donated"]) {
+        NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
+        [msgBox setMessageText: @"Thank you!"];
+        [msgBox setInformativeText:@"Thanks for the donation! Glad you liked MCSM  :)"];
+        [msgBox addButtonWithTitle: @"OK"];
+        [msgBox runModal];
+        [[NSUserDefaults standardUserDefaults]setBool:true forKey:@"donated"];
+        [self.donator setHidden:true];
+    }
+    if ([url.lastPathComponent isEqualToString:@"cancelled"]) {
+        NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
+        [msgBox setMessageText: @"Oh"];
+        [msgBox setInformativeText:@"Well.. maybe later"];
+        [msgBox addButtonWithTitle: @"OK"];
+        [msgBox runModal];
+    }
+}
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     SUUpdater*u= [SUUpdater sharedUpdater];
     [self.toolbar setAllowsUserCustomization:false];
     [u setFeedURL:[NSURL URLWithString:@"http://vladkorotnev.github.com/soft/mcsm/sparkle.xml"]];
-   
+   [[NSAppleEventManager sharedAppleEventManager] setEventHandler:self andSelector:@selector(handleURLEvent:withReplyEvent:) forEventClass:kInternetEventClass andEventID:kAEGetURL];
     // Load plugins
     NSBundle *appBundle;
     NSString *plugInsPath;
-    
+    if ([[NSUserDefaults standardUserDefaults]boolForKey:@"donated"]) {
+         [self.donator setHidden:true];
+    }
     appBundle = [NSBundle mainBundle];
     plugInsPath = [appBundle builtInPlugInsPath];
     if (![FM fileExistsAtPath:plugInsPath]) {
@@ -337,16 +373,12 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
     currentDownload = nil;
     if (isChecked(self.chkForge) && ![FM fileExistsAtPath:FORGE_ZIP]) { //no forge but wanted?
         // then download it as well
-        currentDownload = [[ASIHTTPRequest alloc]initWithURL:[NSURL URLWithString:MCFORGE_URL]];
-        [currentDownload setDelegate:self];
-        [currentDownload setDownloadDestinationPath:FORGE_ZIP ];
-        [self.downloaderTitle setStringValue:@"Downloading latest version of Forge..."];
-        [currentDownload startAsynchronous];
-        [[NSWorkspace sharedWorkspace]openURL:[NSURL URLWithString:MCFORGE_AD_URL]  ];
-        NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
-        [msgBox setMessageText: @"Please check the ad in the browser, it will support the Forge developers!"]; // we dont wanna steal from them
-        [msgBox addButtonWithTitle: @"OK"];
-        [msgBox runModal];
+        [self _showForgeAd];
+    }
+    
+    if ([request.url.absoluteString isEqualToString:MCFORGE_URL] && mustStartAfterForgeDL) {
+       // FFS NO [self startSrv:self];
+        mustStartAfterForgeDL=false;
     }
 }
 - (void)requestFailed:(ASIHTTPRequest *)request {
@@ -377,17 +409,41 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
     serverConnection = [[SMServer alloc]initWithJarFile:(isChecked(self.chkForge) ? FORGE_ZIP : SERVER_JAR) delegate:self]; //new server conn
     [serverConnection retain];
     if (isChecked(sender) && ![FM fileExistsAtPath:FORGE_ZIP]) {//download if missing
-        currentDownload = [[ASIHTTPRequest alloc]initWithURL:[NSURL URLWithString:FORGE_ZIP]];
-        [currentDownload setDelegate:self];
-        [currentDownload setDownloadDestinationPath:FORGE_ZIP ];
-        [self.downloaderTitle setStringValue:@"Downloading Forge..."];
-        [currentDownload startAsynchronous];
-        [[NSWorkspace sharedWorkspace]openURL:[NSURL URLWithString:MCFORGE_AD_URL]  ];
+        [self _showForgeAd];
+    }
+}
+- (void) _showForgeAd {
+    isDisplayingForge=true;
+  
+     [self.forgeAdWeb setFrameLoadDelegate:self];
+    [[self.forgeAdWeb mainFrame]loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:MCFORGE_AD_URL]]];
+          [[NSApplication sharedApplication]runModalForWindow:self.forgeAdPanel];
+   
+}
+- (void)webView:(WebView *)sender didFailProvisionalLoadWithError:(NSError *)error forFrame:(WebFrame *)frame {
+    NSLog(@"%@",error.localizedDescription);
+}
+- (void)webView:(WebView *)sender didStartProvisionalLoadForFrame:(WebFrame *)frame {
+   if(frame==self.forgeAdWeb.mainFrame) [self.forgeAdSpin startAnimation:self];
+    if (frame == self.forgeAdWeb.mainFrame && (![frame.provisionalDataSource.request.URL.absoluteString contains:@"adf.ly"])) {
+        isDisplayingForge=false;
+        [self.forgeAdDone setEnabled:true];
+        [self.forgeAdSpin setHidden:true];
+        [self.forgeAdTick setHidden:false];
+    }
+}
+- (void)webView:(WebView *)sender didFailLoadWithError:(NSError *)error forFrame:(WebFrame *)frame {
+    NSLog(@"didFail:%@",error.localizedDescription);
+    if (frame == self.forgeAdWeb.mainFrame) {
         NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
-        [msgBox setMessageText: @"Please check the ad in the browser, it will support the Forge developers!"];
+        [msgBox setMessageText: @"Error loading ad"];
+        [msgBox setInformativeText:error.localizedDescription];
         [msgBox addButtonWithTitle: @"OK"];
         [msgBox runModal];
     }
+}
+- (void)webView:(WebView *)sender didFinishLoadForFrame:(WebFrame *)frame {
+    if(frame==self.forgeAdWeb.mainFrame) [self.forgeAdSpin stopAnimation:self];
 }
 - (IBAction)runPluginsChg:(id)sender {
 //reserved
@@ -408,6 +464,11 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
 - (IBAction)startSrv:(id)sender { //start server
     if(self.worldList.selectedItem == nil)return; //not if no world tho
     if ([self.worldList.selectedItem.title isEqualToString:@""]) return;
+    if (![FM fileExistsAtPath:FORGE_ZIP]&&isChecked(self.chkForge)) {
+        
+        [self _showForgeAd];
+       // mustStartAfterForgeDL=true;
+    }
     [serverConnection startServer];
 }
 
@@ -663,5 +724,19 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
     
     
    
+}
+- (IBAction)closeForgePanel:(id)sender {
+    isDisplayingForge=false;
+    [[NSApplication sharedApplication]stopModal];
+    [self.forgeAdPanel orderOut:self];
+    currentDownload = [[ASIHTTPRequest alloc]initWithURL:[NSURL URLWithString:MCFORGE_URL]];
+    [currentDownload setDelegate:self];
+    [currentDownload setDownloadDestinationPath:FORGE_ZIP ];
+    
+    [self.downloaderTitle setStringValue:@"Downloading latest version of Forge..."];
+    [currentDownload startAsynchronous];
+}
+- (IBAction)donate:(id)sender {
+    [[NSWorkspace sharedWorkspace]openURL:[NSURL URLWithString:DONATE_URL]  ];
 }
 @end

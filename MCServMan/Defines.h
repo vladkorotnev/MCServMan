@@ -14,6 +14,7 @@
 #define MCFORGE_AD_URL @"http://adf.ly/673885/http://minecraftforge.net/"
 #define XCT_URL @"http://vladkorotnev.github.com/soft/mcsm/xcode-mcsm.zip"
 #define OUR_FOLDER [@"~/Library/Application Support/MinecraftServer" stringByExpandingTildeInPath]
+#define DONATE_URL @"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PRFB5XABQMJ94"
 #define FM [NSFileManager defaultManager]
 #define SERVER_JAR [OUR_FOLDER stringByAppendingPathComponent:@"minecraft_server.jar"] 
 #define FORGE_ZIP [OUR_FOLDER stringByAppendingPathComponent:@"forge.zip"] 

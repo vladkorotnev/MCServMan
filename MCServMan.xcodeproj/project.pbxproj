@@ -16,6 +16,7 @@
 		822EF48916FAD70200C92B22 /* CreeperMac.icns in Resources */ = {isa = PBXBuildFile; fileRef = 822EF48816FAD70200C92B22 /* CreeperMac.icns */; };
 		822EF48B16FAD89F00C92B22 /* NSWhiteCreeper.png in Resources */ = {isa = PBXBuildFile; fileRef = 822EF48A16FAD89E00C92B22 /* NSWhiteCreeper.png */; };
 		824601D916FDAB6B003D2864 /* DoNotGive.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 824601D616FDAB5D003D2864 /* DoNotGive.bundle */; };
+		82541EF216FEAF1E00B962B1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82541EF116FEAF1E00B962B1 /* WebKit.framework */; };
 		8255D4B416E5083B00BDFD7D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8255D4B316E5083B00BDFD7D /* Cocoa.framework */; };
 		8255D4BE16E5083B00BDFD7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8255D4BC16E5083B00BDFD7D /* InfoPlist.strings */; };
 		8255D4C016E5083B00BDFD7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8255D4BF16E5083B00BDFD7D /* main.m */; };
@@ -24,6 +25,8 @@
 		8255D4CA16E5083C00BDFD7D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8255D4C816E5083C00BDFD7D /* MainMenu.xib */; };
 		82AFF4BA16E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AFF4B816E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.m */; };
 		82AFF4BB16E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AFF4B916E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.xib */; };
+		82C2C50F16FEB64D00FFA6ED /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C2C50E16FEB64D00FFA6ED /* tick.png */; };
+		82C2C51116FEC06100FFA6ED /* btn_donateCC_LG.gif in Resources */ = {isa = PBXBuildFile; fileRef = 82C2C51016FEC06100FFA6ED /* btn_donateCC_LG.gif */; };
 		82CF5F9F16EC517500939E2C /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CF5F9E16EC517500939E2C /* Sparkle.framework */; };
 		82CF5FA216EC554600939E2C /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 82CF5F9E16EC517500939E2C /* Sparkle.framework */; };
 		82CF5FA616EC584C00939E2C /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 82CF5FA516EC584C00939E2C /* dsa_pub.pem */; };
@@ -134,6 +137,7 @@
 		822EF48A16FAD89E00C92B22 /* NSWhiteCreeper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NSWhiteCreeper.png; sourceTree = "<group>"; };
 		8238F21B16E8B3180086E35E /* MCServManPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCServManPlugin.h; sourceTree = "<group>"; };
 		824601D116FDAB5D003D2864 /* DoNotGive.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DoNotGive.xcodeproj; path = DoNotGive/DoNotGive.xcodeproj; sourceTree = "<group>"; };
+		82541EF116FEAF1E00B962B1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		8255D4B016E5083B00BDFD7D /* MCServMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCServMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8255D4B316E5083B00BDFD7D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		8255D4B616E5083B00BDFD7D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -150,6 +154,8 @@
 		82AFF4B716E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMMinecraftConfiguratorPanel.h; sourceTree = "<group>"; };
 		82AFF4B816E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMMinecraftConfiguratorPanel.m; sourceTree = "<group>"; };
 		82AFF4B916E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMMinecraftConfiguratorPanel.xib; sourceTree = "<group>"; };
+		82C2C50E16FEB64D00FFA6ED /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
+		82C2C51016FEC06100FFA6ED /* btn_donateCC_LG.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = btn_donateCC_LG.gif; sourceTree = "<group>"; };
 		82CF5F9E16EC517500939E2C /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		82CF5FA516EC584C00939E2C /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		82CF5FA816EC5CA400939E2C /* sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparkle.png; sourceTree = "<group>"; };
@@ -197,6 +203,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82541EF216FEAF1E00B962B1 /* WebKit.framework in Frameworks */,
 				82E8131416E5D4C0003340B9 /* libz.dylib in Frameworks */,
 				82E8131216E5D4BA003340B9 /* SystemConfiguration.framework in Frameworks */,
 				82E8130F16E5D4B3003340B9 /* libxml2.2.dylib in Frameworks */,
@@ -222,6 +229,8 @@
 		821D9E5A16FD8CA2009AE876 /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				82C2C51016FEC06100FFA6ED /* btn_donateCC_LG.gif */,
+				82C2C50E16FEB64D00FFA6ED /* tick.png */,
 				822EF48816FAD70200C92B22 /* CreeperMac.icns */,
 				822EF48A16FAD89E00C92B22 /* NSWhiteCreeper.png */,
 				822EF48616FAD58000C92B22 /* NSCreeper.png */,
@@ -311,6 +320,7 @@
 		8255D4A716E5083B00BDFD7D = {
 			isa = PBXGroup;
 			children = (
+				82541EF116FEAF1E00B962B1 /* WebKit.framework */,
 				821D9E5B16FD8CB2009AE876 /* Xcode Template */,
 				821D9E5916FD8C90009AE876 /* Plugins */,
 				821D9E5A16FD8CA2009AE876 /* Graphics */,
@@ -541,6 +551,8 @@
 				822EF48716FAD58100C92B22 /* NSCreeper.png in Resources */,
 				822EF48916FAD70200C92B22 /* CreeperMac.icns in Resources */,
 				822EF48B16FAD89F00C92B22 /* NSWhiteCreeper.png in Resources */,
+				82C2C50F16FEB64D00FFA6ED /* tick.png in Resources */,
+				82C2C51116FEC06100FFA6ED /* btn_donateCC_LG.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

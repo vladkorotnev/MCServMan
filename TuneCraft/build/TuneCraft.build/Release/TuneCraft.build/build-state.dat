@@ -135,7 +135,7 @@ s1046
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb401e85c8efdb641^03eafd5c8efdb641^---0#1#0#--18"Check dependencies36"249DA3D3-E76B-4783-98FE-CC1F37D13537-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies406900e3c2feb641^7c7b03e3c2feb641^---0#1#0#--18"Check dependencies36"4E76961F-9EEA-46B3-83B7-25A8BD48736F-
 
 CCompileC build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftMain.o /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s385541650.817292

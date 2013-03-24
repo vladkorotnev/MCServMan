@@ -13,13 +13,21 @@
 #import "MCServManPlugin.h"
 #import "SMMinecraftConfig.h"
 #import "Sparkle.framework/Headers/Sparkle.h"
-
+#import <WebKit/WebKit.h>
 @interface SMAppDelegate : NSObject <NSApplicationDelegate,ASIHTTPRequestDelegate,MinecraftServerDelegate,SMAppDelegatePluginsAllowedProtocol>{
     ASIHTTPRequest*currentDownload;
     NSMutableArray*loadedPlugins;
     SMMinecraftConfig* currentConfig;
     SMServer* serverConnection;
 }
+- (IBAction)donate:(id)sender;
+@property (assign) IBOutlet NSButton *donator;
+@property (assign) IBOutlet NSImageView *forgeAdTick;
+@property (assign) IBOutlet NSProgressIndicator *forgeAdSpin;
+@property (assign) IBOutlet WebView *forgeAdWeb;
+- (IBAction)closeForgePanel:(id)sender;
+@property (assign) IBOutlet NSButton *forgeAdDone;
+@property (assign) IBOutlet NSPanel *forgeAdPanel;
 @property (assign) IBOutlet NSToolbarItem *folderBtn;
 @property (assign) IBOutlet NSToolbar *toolbar;
 @property (assign) IBOutlet NSTextFieldCell *argField;

@@ -27,7 +27,7 @@
 - (void) stopServer;
 - (void) sendServerMessage:(NSString*)mess;
 - (SMServer*)initWithJarFile:(NSString*)jar delegate:(id<MinecraftServerDelegate>)del;
-
+- (void) killServer;
 @end
 
 @protocol MinecraftServerDelegate <NSObject>

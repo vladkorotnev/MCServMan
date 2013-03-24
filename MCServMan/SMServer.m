@@ -45,6 +45,10 @@
 - (void) sendServerMessage:(NSString*)mess { //plugin allowed
     if(isRunning)[[[serverTask standardInput] fileHandleForWriting] writeData: [[mess stringByAppendingString:@"\n"] dataUsingEncoding:NSASCIIStringEncoding ]];
 }
+- (void) killServer{
+    [self.delegate _log:[NSString stringWithFormat:@"=== Killed java pid %i\n",serverTask.processIdentifier]];
+    system([[NSString stringWithFormat:@"kill -9 %i",serverTask.processIdentifier]UTF8String]);
+}
 #pragma mark -Delegates for Task
 // we'll just forward them up to the delegate of ours
 
