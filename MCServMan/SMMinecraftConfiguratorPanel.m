@@ -180,10 +180,10 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(NSInteger)rowIndex {
         if (!(self.editValue.integerValue <= [[uplow objectAtIndex:1]integerValue]) || !(self.editValue.integerValue >= [[uplow objectAtIndex:0]integerValue])) {
             //we're out of limits
             NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
-            [msgBox setMessageText: @"Invalid value"];
-            [msgBox setInformativeText:[NSString stringWithFormat:@"Must be between %li and %li",[[uplow objectAtIndex:0]integerValue],[[uplow objectAtIndex:1]integerValue]]];
+            [msgBox setMessageText: NSLocalizedString(@"Invalid value",@"Invalid value")];
+            [msgBox setInformativeText:[NSString stringWithFormat:NSLocalizedString(@"Must be between %li and %li",@"Must be between %li and %li"),[[uplow objectAtIndex:0]integerValue],[[uplow objectAtIndex:1]integerValue]]];
             
-            [msgBox addButtonWithTitle: @"OK"];
+            [msgBox addButtonWithTitle: NSLocalizedString(@"OK",@"OK")];
             [msgBox runModal];
             return;
         }

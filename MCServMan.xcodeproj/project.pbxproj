@@ -22,7 +22,7 @@
 		8255D4C016E5083B00BDFD7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8255D4BF16E5083B00BDFD7D /* main.m */; };
 		8255D4C416E5083B00BDFD7D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8255D4C216E5083B00BDFD7D /* Credits.rtf */; };
 		8255D4C716E5083B00BDFD7D /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8255D4C616E5083B00BDFD7D /* SMAppDelegate.m */; };
-		8255D4CA16E5083C00BDFD7D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8255D4C816E5083C00BDFD7D /* MainMenu.xib */; };
+		829EE85016FEC7E100DF2DA1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829EE84F16FEC7E100DF2DA1 /* MainMenu.xib */; };
 		82AFF4BA16E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AFF4B816E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.m */; };
 		82AFF4BB16E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AFF4B916E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.xib */; };
 		82C2C50F16FEB64D00FFA6ED /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C2C50E16FEB64D00FFA6ED /* tick.png */; };
@@ -150,7 +150,7 @@
 		8255D4C316E5083B00BDFD7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		8255D4C516E5083B00BDFD7D /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
 		8255D4C616E5083B00BDFD7D /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
-		8255D4C916E5083C00BDFD7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		829EE84F16FEC7E100DF2DA1 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		82AFF4B716E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMMinecraftConfiguratorPanel.h; sourceTree = "<group>"; };
 		82AFF4B816E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMMinecraftConfiguratorPanel.m; sourceTree = "<group>"; };
 		82AFF4B916E71E8F00BDA82E /* SMMinecraftConfiguratorPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMMinecraftConfiguratorPanel.xib; sourceTree = "<group>"; };
@@ -287,7 +287,7 @@
 			children = (
 				8255D4C516E5083B00BDFD7D /* SMAppDelegate.h */,
 				8255D4C616E5083B00BDFD7D /* SMAppDelegate.m */,
-				8255D4C816E5083C00BDFD7D /* MainMenu.xib */,
+				829EE84F16FEC7E100DF2DA1 /* MainMenu.xib */,
 			);
 			name = "General application";
 			sourceTree = "<group>";
@@ -537,7 +537,6 @@
 			files = (
 				8255D4BE16E5083B00BDFD7D /* InfoPlist.strings in Resources */,
 				8255D4C416E5083B00BDFD7D /* Credits.rtf in Resources */,
-				8255D4CA16E5083C00BDFD7D /* MainMenu.xib in Resources */,
 				82E8130816E5D0EB003340B9 /* ASIWebPageRequest in Resources */,
 				82E8130916E5D0EB003340B9 /* CloudFiles in Resources */,
 				82E8130A16E5D0EB003340B9 /* S3 in Resources */,
@@ -553,6 +552,7 @@
 				822EF48B16FAD89F00C92B22 /* NSWhiteCreeper.png in Resources */,
 				82C2C50F16FEB64D00FFA6ED /* tick.png in Resources */,
 				82C2C51116FEC06100FFA6ED /* btn_donateCC_LG.gif in Resources */,
+				829EE85016FEC7E100DF2DA1 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,14 +616,6 @@
 				8255D4C316E5083B00BDFD7D /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		8255D4C816E5083C00BDFD7D /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8255D4C916E5083C00BDFD7D /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

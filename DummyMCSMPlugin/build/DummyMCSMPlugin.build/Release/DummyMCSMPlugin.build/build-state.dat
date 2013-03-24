@@ -111,7 +111,7 @@ s995
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese6eadfe2c2feb641^9770f0e2c2feb641^---0#1#0#--18"Check dependencies36"4A19B5C2-B7BB-4D00-A189-DDFBF4AE93CA-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7ee1cd30cbfeb641^bda8d930cbfeb641^---0#1#0#--18"Check dependencies36"502419BC-01B0-46DA-8ACD-CB70E1F44C39-
 
 CCompileC build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/Objects-normal/x86_64/DummyPluginViewController.o /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/DummyPluginViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s385541717.672216

@@ -69,6 +69,10 @@ static DGPreferencesViewController*prefs=nil;
 - (void) onServerMessage: (NSString*)msg{
 	/* place code to manually parse server log lines */
     if(!isReady)return;
+    if ([msg contains:@"Stopping the server"]) {
+        isReady=false;
+        return;
+    }
     if (![msg contains:@"Given"]&&![msg contains:@"to"]) {
         return;
     }

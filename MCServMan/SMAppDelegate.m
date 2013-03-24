@@ -40,8 +40,8 @@ static bool mustStartAfterForgeDL=false;
     [self.worldAddBtn setEnabled:false];
     [self.worldDelBtn setEnabled:false];
     //tell the user and all the plugins
-    //[self _log:@"=== Starting server\n"];
-    [self notify:@"Starting up.."];
+    //[self _log:NSLocalizedString(@"=== Starting server\n",@"=== Starting server\n")];
+    [self notify:NSLocalizedString(@"Starting up..",@"Starting up..")];
     isTimerTicking=false;
     [self.toolbar validateVisibleItems];
     if (self.plugins.state == 1) {
@@ -59,7 +59,7 @@ static bool mustStartAfterForgeDL=false;
             return;
         }
         NSBeep();
-        [self notify:@"Started with success"];
+        [self notify:NSLocalizedString(@"Started with success",@"Started with success")];
         if (self.plugins.state == 1) {
             for (NSObject<MCServManPlugin>*plug in loadedPlugins) { //tell plugins about the Done
                 if ([plug respondsToSelector:@selector(onServerDoneLoading:)]) {
@@ -73,7 +73,7 @@ static bool mustStartAfterForgeDL=false;
     if ([line contains:@"logged in with entity id"]) {
         NSString*userl = isChecked(self.chkForge) ? [line componentsSeparatedByString:@"]"][2] : [line componentsSeparatedByString:@"]"][1];
         NSString*name =[ [userl componentsSeparatedByString:@"["][0] stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@" "]];
-        [self notify:[NSString stringWithFormat:@"%@ has logged in",name]];
+        [self notify:[NSString stringWithFormat:NSLocalizedString(@"%@ has logged in",@"%@ has logged in"),name]];
         if (self.plugins.state == 1) {
             for (NSObject<MCServManPlugin>*plug in loadedPlugins) { //tell plugins about the new line
                 if ([plug respondsToSelector:@selector(onUserJoined:)]) {
@@ -103,7 +103,7 @@ if ([line contains:@"<"] && [line contains:@">"]) {
     if ([line contains:@"lost connection"] && ![line contains:@"/"]) {
         NSString*userl = isChecked(self.chkForge) ? [line componentsSeparatedByString:@"]"][2] : [line componentsSeparatedByString:@"]"][1];
         NSString*name =[ [userl componentsSeparatedByString:@" lost connection"][0] stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@" "]];
-        [self notify:[NSString stringWithFormat:@"%@ has logged off",name]];
+        [self notify:[NSString stringWithFormat:NSLocalizedString(@"%@ has logged off",@"%@ has logged off"),name]];
         if (self.plugins.state == 1) {
             for (NSObject<MCServManPlugin>*plug in loadedPlugins) { //tell plugins about the new line
                 if ([plug respondsToSelector:@selector(onUserLeft:)]) {
@@ -115,10 +115,10 @@ if ([line contains:@"<"] && [line contains:@">"]) {
     }
     if ([line contains:@"crash report has been saved to"]) {
         NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
-        [msgBox setMessageText: @"It seems the server has crashed!"];
-        [msgBox setInformativeText:@"Would you like to kill it?"];
-        [msgBox addButtonWithTitle: @"Yes"];
-        [msgBox addButtonWithTitle:@"No"];
+        [msgBox setMessageText: NSLocalizedString(@"It seems the server has crashed!",@"It seems the server has crashed!")];
+        [msgBox setInformativeText:NSLocalizedString(@"Would you like to kill it?",@"Would you like to kill it?")];
+        [msgBox addButtonWithTitle: NSLocalizedString(@"Yes",@"Yes")];
+        [msgBox addButtonWithTitle:NSLocalizedString(@"No",@"No")];
         NSInteger rCode = [msgBox runModal];
         if (rCode == NSAlertFirstButtonReturn) {
             [serverConnection killServer];
@@ -150,7 +150,7 @@ if ([line contains:@"<"] && [line contains:@">"]) {
     [self.worldDelBtn setEnabled:true];
     [currentConfig reloadConfigFromFile]; //reload config file
     //[self _log:@"=== Stopped server\n"]; // tell the user
-   if(!mustTerminate) [self notify:@"Stopped"];
+   if(!mustTerminate) [self notify:NSLocalizedString(@"Stopped",@"Stopped")];
     if (self.plugins.state == 1) { //and the plugins
         for (NSObject<MCServManPlugin>*plug in loadedPlugins) {
             if ([plug respondsToSelector:@selector(onServerStop:)]) {
@@ -170,7 +170,7 @@ objectValueForTableColumn:(NSTableColumn *) aTableColumn
     NSString *s = nil;
     s = [[[loadedPlugins objectAtIndex:rowIndex]class]pluginName];
     if (s == nil || [s isEqualToString:@""]) {
-        return @"< flawed plugin >";
+        return NSLocalizedString(@"< flawed plugin >",@"< flawed plugin >");
     }
     
     return s;
@@ -209,10 +209,10 @@ objectValueForTableColumn:(NSTableColumn *) aTableColumn
         if (remainMinutes > 10) {
             if(remainMinutes % 5 == 0){ // each 5min if > 10min
                 [serverConnection sendServerMessage:[NSString stringWithFormat:@"say [AUTO] Shutdown in %i min!",remainMinutes]];
-                [self notify:[NSString stringWithFormat:@"Shutdown in %i min",remainMinutes]];
+                [self notify:[NSString stringWithFormat:NSLocalizedString(@"Shutdown in %i min",@"Shutdown in %i min"),remainMinutes]];
             }
         } else {[serverConnection sendServerMessage:[NSString stringWithFormat:@"say [AUTO] Shutdown in %i min!",remainMinutes]]; //send each minute
-            [self notify:[NSString stringWithFormat:@"Shutdown in %i min",remainMinutes]];
+            [self notify:[NSString stringWithFormat:NSLocalizedString(@"Shutdown in %i min",@"Shutdown in %i min"),remainMinutes]];
         }
         [self performSelector:@selector(_timerCallback) withObject:nil afterDelay:60]; // requeue
     } else {
@@ -283,8 +283,8 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
     NSString* url = [[event paramDescriptorForKeyword:keyDirectObject] stringValue];
     if ([url.lastPathComponent isEqualToString:@"donated"]) {
         NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
-        [msgBox setMessageText: @"Thank you!"];
-        [msgBox setInformativeText:@"Thanks for the donation! Glad you liked MCSM  :)"];
+        [msgBox setMessageText: NSLocalizedString(@"Thank you!",@"Thank you!")];
+        [msgBox setInformativeText:NSLocalizedString(@"Thanks for the donation! Glad you liked MCSM  :)",@"Thanks for the donation! Glad you liked MCSM  :)")];
         [msgBox addButtonWithTitle: @"OK"];
         [msgBox runModal];
         [[NSUserDefaults standardUserDefaults]setBool:true forKey:@"donated"];
@@ -292,8 +292,8 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
     }
     if ([url.lastPathComponent isEqualToString:@"cancelled"]) {
         NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
-        [msgBox setMessageText: @"Oh"];
-        [msgBox setInformativeText:@"Well.. maybe later"];
+        [msgBox setMessageText: NSLocalizedString(@"Oh",@"Oh")];
+        [msgBox setInformativeText:NSLocalizedString(@"Well.. maybe later",@"Well.. maybe later")];
         [msgBox addButtonWithTitle: @"OK"];
         [msgBox runModal];
     }
@@ -349,7 +349,7 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
         currentDownload = [[ASIHTTPRequest alloc]initWithURL:[NSURL URLWithString:MCSERVER_URL]];
         [currentDownload setDelegate:self];
         [currentDownload setDownloadDestinationPath:[OUR_FOLDER stringByAppendingPathComponent:@"minecraft_server.jar"] ];
-        [self.downloaderTitle setStringValue:@"Downloading latest Minecraft server..."];
+        [self.downloaderTitle setStringValue:NSLocalizedString(@"Downloading latest Minecraft server...",@"Downloading latest Minecraft server...")];
         [currentDownload startAsynchronous];
     }
     
@@ -385,9 +385,9 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
     [self _panelUnpop:self.downloaderPanel];
     // error :p
     NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
-    [msgBox setMessageText:@"Failed to download!"];
+    [msgBox setMessageText:NSLocalizedString(@"Failed to download!",@"Failed to download!")];
     [msgBox setInformativeText: [request.error localizedDescription]];
-    [msgBox addButtonWithTitle: @"Oh no"];
+    [msgBox addButtonWithTitle: NSLocalizedString(@"Oh no",@"Oh no")];
     [msgBox runModal];
     [currentDownload release];
     currentDownload = nil;
@@ -436,7 +436,7 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
     NSLog(@"didFail:%@",error.localizedDescription);
     if (frame == self.forgeAdWeb.mainFrame) {
         NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
-        [msgBox setMessageText: @"Error loading ad"];
+        [msgBox setMessageText: NSLocalizedString(@"Error loading ad",@"Error loading ad")];
         [msgBox setInformativeText:error.localizedDescription];
         [msgBox addButtonWithTitle: @"OK"];
         [msgBox runModal];
@@ -474,10 +474,10 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
 
 - (IBAction)stopSrv:(id)sender { //show stop window
     if (isTimerTicking) { //ui goodies
-        self.reschBtn.title = @"Reschedule";
+        self.reschBtn.title = NSLocalizedString(@"Reschedule",@"Reschedule");
       self.afterTimeField.stringValue = [NSString stringWithFormat:@"%i",remainMinutes];
     }else {
-        self.reschBtn.title = @"Done";
+        self.reschBtn.title = NSLocalizedString(@"Done",@"Done");
     }
     [self _panelPop:self.stopper];
 }
@@ -489,7 +489,7 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
         if(error!=nil){
             NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
             [msgBox setMessageText: [error localizedDescription]];
-            [msgBox addButtonWithTitle: @"Oh no"];
+            [msgBox addButtonWithTitle: NSLocalizedString(@"Oh no",@"Oh no")];
             [msgBox runModal];
             return;
         }
@@ -501,7 +501,7 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
         if(error!=nil){
             NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
             [msgBox setMessageText: [error localizedDescription]];
-            [msgBox addButtonWithTitle: @"Oh no"];
+            [msgBox addButtonWithTitle: NSLocalizedString(@"Oh no",@"Oh no")];
             [msgBox runModal];
             return;
         }
@@ -513,7 +513,7 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
         if(error!=nil){
             NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
             [msgBox setMessageText: [error localizedDescription]];
-            [msgBox addButtonWithTitle: @"Oh no"];
+            [msgBox addButtonWithTitle: NSLocalizedString(@"Oh no",@"Oh no")];
             [msgBox runModal];
             return;
         }}
@@ -521,7 +521,7 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
     currentDownload = [[ASIHTTPRequest alloc]initWithURL:[NSURL URLWithString:MCSERVER_URL]];
     [currentDownload setDelegate:self];
     [currentDownload setDownloadDestinationPath:[OUR_FOLDER stringByAppendingPathComponent:@"minecraft_server.jar"] ];
-    [self.downloaderTitle setStringValue:@"Downloading latest Minecraft server..."];
+    [self.downloaderTitle setStringValue:NSLocalizedString(@"Downloading latest Minecraft server...",@"Downloading latest Minecraft server...")];
     [currentDownload startAsynchronous];
 }
 
@@ -538,8 +538,8 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
 - (IBAction)mkWorld:(id)sender { //new world maker
     if([FM fileExistsAtPath:[OUR_FOLDER stringByAppendingPathComponent:self.worldText.stringValue]]){
         NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
-        [msgBox setMessageText: @"This world already exists."];
-        [msgBox setInformativeText:@"Please select a different name."];
+        [msgBox setMessageText: NSLocalizedString(@"This world already exists.",@"This world already exists.")];
+        [msgBox setInformativeText:NSLocalizedString(@"Please select a different name.",@"Please select a different name.")];
         [msgBox addButtonWithTitle: @"OK"];
         [msgBox runModal];
         return;
@@ -548,7 +548,7 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
     [self _panelUnpop:self.worldPanel];
     [self.tskPrg setIndeterminate:true];
     [self.tskPrg startAnimation:self];
-    [self.tskTtl setStringValue:[NSString stringWithFormat:@"Creating world %@...",self.worldText.stringValue]];
+    [self.tskTtl setStringValue:[NSString stringWithFormat:NSLocalizedString(@"Creating world %@...",@"Creating world %@..."),self.worldText.stringValue]];
     
     [self _panelPop:self.tskPnl];
     
@@ -603,9 +603,9 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
 - (IBAction)delWorld:(id)sender {
     // kill world
     NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
-    [msgBox setMessageText: @"Really delete this world?"];
-    [msgBox addButtonWithTitle: @"Yes"];
-    [msgBox addButtonWithTitle:@"No"];
+    [msgBox setMessageText: NSLocalizedString(@"Really delete this world?",@"Really delete this world?")];
+    [msgBox addButtonWithTitle: NSLocalizedString(@"Yes",@"Yes")];
+    [msgBox addButtonWithTitle:NSLocalizedString(@"No",@"No")];
     if ([msgBox runModal] == NSAlertFirstButtonReturn) {
         NSError *error=nil;
         
@@ -615,7 +615,7 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
             [self _panelUnpop:self.tskPnl];
             NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
             [msgBox setMessageText: [error localizedDescription]];
-            [msgBox addButtonWithTitle: @"Oh no"];
+            [msgBox addButtonWithTitle: NSLocalizedString(@"Oh no",@"Oh no")];
             [msgBox runModal];
             return;
         }
@@ -669,7 +669,7 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
         if(e!=nil){
             NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
             [msgBox setMessageText: [e localizedDescription]];
-            [msgBox addButtonWithTitle: @"Oh no"];
+            [msgBox addButtonWithTitle: NSLocalizedString(@"Oh no",@"Oh no")];
             [msgBox runModal];
             return;
         }
@@ -733,7 +733,7 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
     [currentDownload setDelegate:self];
     [currentDownload setDownloadDestinationPath:FORGE_ZIP ];
     
-    [self.downloaderTitle setStringValue:@"Downloading latest version of Forge..."];
+    [self.downloaderTitle setStringValue:NSLocalizedString(@"Downloading latest version of Forge...",@"Downloading latest version of Forge...")];
     [currentDownload startAsynchronous];
 }
 - (IBAction)donate:(id)sender {
