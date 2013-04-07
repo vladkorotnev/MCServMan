@@ -51,6 +51,7 @@
 		82E8132316E5DE5E003340B9 /* MFTaskDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E8131D16E5DE5E003340B9 /* MFTaskDelegate.m */; };
 		82E8132416E5DE5E003340B9 /* MFTaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E8132016E5DE5E003340B9 /* MFTaskQueue.m */; };
 		82E8134E16E6150A003340B9 /* TuneCraft.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 82E8134916E614A7003340B9 /* TuneCraft.bundle */; };
+		82F933C31711BED4002BF490 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F933C21711BED4002BF490 /* stop.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -196,6 +197,7 @@
 		82E8131F16E5DE5E003340B9 /* MFTaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTaskQueue.h; sourceTree = "<group>"; };
 		82E8132016E5DE5E003340B9 /* MFTaskQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTaskQueue.m; sourceTree = "<group>"; };
 		82E8134416E614A6003340B9 /* TuneCraft.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TuneCraft.xcodeproj; path = TuneCraft/TuneCraft.xcodeproj; sourceTree = "<group>"; };
+		82F933C21711BED4002BF490 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +231,7 @@
 		821D9E5A16FD8CA2009AE876 /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				82F933C21711BED4002BF490 /* stop.png */,
 				82C2C51016FEC06100FFA6ED /* btn_donateCC_LG.gif */,
 				82C2C50E16FEB64D00FFA6ED /* tick.png */,
 				822EF48816FAD70200C92B22 /* CreeperMac.icns */,
@@ -553,6 +556,7 @@
 				82C2C50F16FEB64D00FFA6ED /* tick.png in Resources */,
 				82C2C51116FEC06100FFA6ED /* btn_donateCC_LG.gif in Resources */,
 				829EE85016FEC7E100DF2DA1 /* MainMenu.xib in Resources */,
+				82F933C31711BED4002BF490 /* stop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

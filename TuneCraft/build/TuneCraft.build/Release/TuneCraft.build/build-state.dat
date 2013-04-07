@@ -8,8 +8,8 @@ cCompileC build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/Tu
 cCompileC build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftSettingViewController.o /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftSettingViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft normal x86_64
 cGenerateDSYMFile /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle.dSYM /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/MacOS/TuneCraft
-cCopyStringsFile /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/Resources/en.lproj/InfoPlist.strings TuneCraft/en.lproj/InfoPlist.strings
 cCompileXIB /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftSettingViewController.xib
+cCopyStringsFile /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle/Contents/Resources/en.lproj/InfoPlist.strings TuneCraft/en.lproj/InfoPlist.strings
 cTouch /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/build/Release/TuneCraft.bundle
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
@@ -135,7 +135,7 @@ s1046
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies17d6e930cbfeb641^c40bea30cbfeb641^---0#1#0#--18"Check dependencies36"A7CC70E1-7410-447A-BED9-95FD61AA5388-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciescf6aadf0bf11b741^711bb9f0bf11b741^---0#1#0#--18"Check dependencies36"CF634BCB-7AD9-4D95-BCE3-B3F2EBAD20D2-
 
 CCompileC build/TuneCraft.build/Release/TuneCraft.build/Objects-normal/x86_64/TuneCraftMain.o /Users/tigra/Desktop/Coding/MCServMan/TuneCraft/TuneCraft/TuneCraftMain.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s385541650.817292

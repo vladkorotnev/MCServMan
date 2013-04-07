@@ -20,6 +20,7 @@
     SMMinecraftConfig* currentConfig;
     SMServer* serverConnection;
 }
+- (IBAction)performKill:(id)sender;
 - (IBAction)donate:(id)sender;
 @property (assign) IBOutlet NSButton *donator;
 @property (assign) IBOutlet NSImageView *forgeAdTick;

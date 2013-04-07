@@ -7,8 +7,8 @@ cProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501
 cCompileC build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/Objects-normal/x86_64/DummyPluginViewController.o /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/DummyPluginViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin normal x86_64
 cGenerateDSYMFile /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle.dSYM /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/MacOS/DummyMCSMPlugin
-cCopyStringsFile /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/Resources/en.lproj/InfoPlist.strings DummyMCSMPlugin/en.lproj/InfoPlist.strings
 cCompileXIB /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/DummyPluginViewController.xib
+cCopyStringsFile /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle/Contents/Resources/en.lproj/InfoPlist.strings DummyMCSMPlugin/en.lproj/InfoPlist.strings
 cCpResource DummyMCSMPlugin/NSCreeper.png build/Release/DummyMCSMPlugin.bundle/Contents/Resources/NSCreeper.png
 cTouch /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/build/Release/DummyMCSMPlugin.bundle
 
@@ -111,7 +111,7 @@ s995
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7ee1cd30cbfeb641^bda8d930cbfeb641^---0#1#0#--18"Check dependencies36"502419BC-01B0-46DA-8ACD-CB70E1F44C39-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8acc84f0bf11b741^dd449df0bf11b741^---0#1#0#--18"Check dependencies36"3AEE3327-1034-451E-BFBC-C0AD42D1AC9D-
 
 CCompileC build/DummyMCSMPlugin.build/Release/DummyMCSMPlugin.build/Objects-normal/x86_64/DummyPluginViewController.o /Users/tigra/Desktop/Coding/MCServMan/DummyMCSMPlugin/DummyMCSMPlugin/DummyPluginViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s385541717.672216

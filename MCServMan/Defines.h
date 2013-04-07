@@ -25,6 +25,7 @@
 #define CONFSERVTAG 3
 #define REDOWNTAG 4
 #define SERVFOLDERTAG 5
+#define KILLTAG 6
 #endif
 
 static bool isChecked(NSButton* chk){ return (chk.state ==1 ) ? YES : NO;}

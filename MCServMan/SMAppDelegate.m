@@ -704,6 +704,10 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
         case STOPSERVTAG:
             return serverConnection.isRunning;
             break;
+            
+        case KILLTAG:
+            return serverConnection.isRunning;
+            break;
         
         case REDOWNTAG:
             return !serverConnection.isRunning;
@@ -736,6 +740,18 @@ shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
     [self.downloaderTitle setStringValue:NSLocalizedString(@"Downloading latest version of Forge...",@"Downloading latest version of Forge...")];
     [currentDownload startAsynchronous];
 }
+- (IBAction)performKill:(id)sender {
+    NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
+    [msgBox setMessageText: @"Are you sure to force kill server?"];
+    [msgBox setInformativeText:@"You may lose world data."];
+    [msgBox addButtonWithTitle: NSLocalizedString(@"Yes",@"Yes")];
+    [msgBox addButtonWithTitle:NSLocalizedString(@"No",@"No")];
+    NSInteger rCode = [msgBox runModal];
+    if (rCode == NSAlertFirstButtonReturn) {
+        [serverConnection killServer];
+    }
+}
+
 - (IBAction)donate:(id)sender {
     [[NSWorkspace sharedWorkspace]openURL:[NSURL URLWithString:DONATE_URL]  ];
 }

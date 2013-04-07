@@ -671,6 +671,28 @@
 							<bool key="NSToolbarIsUserRemovable">YES</bool>
 							<int key="NSToolbarItemVisibilityPriority">0</int>
 						</object>
+						<object class="NSToolbarItem" key="293BC855-11CA-4CD2-83F8-D43A8366F42E" id="684379430">
+							<object class="NSMutableString" key="NSToolbarItemIdentifier">
+								<characters key="NS.bytes">293BC855-11CA-4CD2-83F8-D43A8366F42E</characters>
+							</object>
+							<string key="NSToolbarItemLabel">Kill</string>
+							<string key="NSToolbarItemPaletteLabel">Force kill server</string>
+							<string key="NSToolbarItemToolTip"/>
+							<nil key="NSToolbarItemView"/>
+							<object class="NSCustomResource" key="NSToolbarItemImage">
+								<string key="NSClassName">NSImage</string>
+								<string key="NSResourceName">stop</string>
+							</object>
+							<nil key="NSToolbarItemTarget"/>
+							<nil key="NSToolbarItemAction"/>
+							<string key="NSToolbarItemMinSize">{0, 0}</string>
+							<string key="NSToolbarItemMaxSize">{0, 0}</string>
+							<bool key="NSToolbarItemEnabled">YES</bool>
+							<bool key="NSToolbarItemAutovalidates">YES</bool>
+							<int key="NSToolbarItemTag">6</int>
+							<bool key="NSToolbarIsUserRemovable">YES</bool>
+							<int key="NSToolbarItemVisibilityPriority">0</int>
+						</object>
 						<object class="NSToolbarItem" key="44E16385-60ED-4BF0-9775-52F3B08D1D2D" id="62463287">
 							<object class="NSMutableString" key="NSToolbarItemIdentifier">
 								<characters key="NS.bytes">44E16385-60ED-4BF0-9775-52F3B08D1D2D</characters>
@@ -792,7 +814,7 @@
 							</object>
 						</object>
 					</dictionary>
-					<array key="NSToolbarIBAllowedItems">
+					<array class="NSMutableArray" key="NSToolbarIBAllowedItems">
 						<reference ref="1003140129"/>
 						<reference ref="172692320"/>
 						<reference ref="357123244"/>
@@ -800,10 +822,12 @@
 						<reference ref="62463287"/>
 						<reference ref="336803295"/>
 						<reference ref="204957299"/>
+						<reference ref="684379430"/>
 					</array>
 					<array key="NSToolbarIBDefaultItems">
 						<reference ref="357123244"/>
 						<reference ref="373679782"/>
+						<reference ref="684379430"/>
 						<reference ref="172692320"/>
 						<reference ref="62463287"/>
 						<reference ref="336803295"/>
@@ -814,7 +838,7 @@
 				<nil key="NSUserInterfaceItemIdentifier"/>
 				<string key="NSWindowContentMinSize">{500, 430}</string>
 				<object class="NSView" key="NSWindowView" id="439893737">
-					<nil key="NSNextResponder"/>
+					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<array class="NSMutableArray" key="NSSubviews">
 						<object class="NSTextField" id="1072917550">
@@ -980,7 +1004,7 @@
 															<int key="NSvFlags">2322</int>
 															<string key="NSFrameSize">{451, 278}</string>
 															<reference key="NSSuperview" ref="859650948"/>
-															<reference key="NSNextKeyView" ref="25541600"/>
+															<reference key="NSNextKeyView" ref="402573992"/>
 															<string key="NSReuseIdentifierKey">_NS:13</string>
 															<object class="NSTextContainer" key="NSTextContainer" id="588065684">
 																<object class="NSLayoutManager" key="NSLayoutManager">
@@ -1001,7 +1025,7 @@
 																<int key="NSTCFlags">1</int>
 															</object>
 															<object class="NSTextViewSharedData" key="NSSharedData">
-																<int key="NSFlags">100674817</int>
+																<int key="NSFlags">67120385</int>
 																<int key="NSTextCheckingTypes">0</int>
 																<nil key="NSMarkedAttributes"/>
 																<reference key="NSBackgroundColor" ref="512142448"/>
@@ -1097,7 +1121,7 @@
 											</array>
 											<string key="NSFrame">{{5, 32}, {453, 280}}</string>
 											<reference key="NSSuperview" ref="808478778"/>
-											<reference key="NSNextKeyView" ref="859650948"/>
+											<reference key="NSNextKeyView" ref="25541600"/>
 											<string key="NSReuseIdentifierKey">_NS:9</string>
 											<int key="NSsFlags">149522</int>
 											<reference key="NSVScroller" ref="402573992"/>
@@ -1112,7 +1136,7 @@
 											<int key="NSvFlags">289</int>
 											<string key="NSFrame">{{435, 7}, {23, 23}}</string>
 											<reference key="NSSuperview" ref="808478778"/>
-											<reference key="NSNextKeyView" ref="850840925"/>
+											<reference key="NSNextKeyView" ref="227764055"/>
 											<string key="NSReuseIdentifierKey">_NS:22</string>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSButtonCell" key="NSCell" id="98692445">
@@ -1306,6 +1330,7 @@
 							<int key="NSvFlags">265</int>
 							<string key="NSFrame">{{295, 342}, {78, 40}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSNextKeyView" ref="850840925"/>
 							<string key="NSReuseIdentifierKey">_NS:22</string>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="370708281">
@@ -1330,6 +1355,7 @@
 						</object>
 					</array>
 					<string key="NSFrameSize">{500, 430}</string>
+					<reference key="NSSuperview"/>
 					<reference key="NSNextKeyView" ref="1072917550"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1280, 1002}}</string>
@@ -2402,7 +2428,7 @@
 				<nil key="NSViewClass"/>
 				<nil key="NSUserInterfaceItemIdentifier"/>
 				<object class="NSView" key="NSWindowView" id="702316943">
-					<nil key="NSNextResponder"/>
+					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<array class="NSMutableArray" key="NSSubviews">
 						<object class="NSTextField" id="617710740">
@@ -2528,6 +2554,7 @@
 						</object>
 					</array>
 					<string key="NSFrameSize">{635, 494}</string>
+					<reference key="NSSuperview"/>
 					<reference key="NSNextKeyView" ref="833729850"/>
 					<string key="NSReuseIdentifierKey">_NS:21</string>
 				</object>
@@ -3354,6 +3381,14 @@
 						<reference key="destination" ref="227764055"/>
 					</object>
 					<int key="connectionID">945</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">performKill:</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="684379430"/>
+					</object>
+					<int key="connectionID">948</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -4569,6 +4604,7 @@
 							<reference ref="62463287"/>
 							<reference ref="336803295"/>
 							<reference ref="204957299"/>
+							<reference ref="684379430"/>
 						</array>
 						<reference key="parent" ref="972006081"/>
 					</object>
@@ -4714,6 +4750,11 @@
 						<int key="objectID">942</int>
 						<reference key="object" ref="370708281"/>
 						<reference key="parent" ref="227764055"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">946</int>
+						<reference key="object" ref="684379430"/>
+						<reference key="parent" ref="688751911"/>
 					</object>
 				</array>
 			</object>
@@ -4921,12 +4962,13 @@
 				<string key="939.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="941.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="942.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="946.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">945</int>
+			<int key="maxID">948</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
@@ -4948,6 +4990,7 @@
 			<string key="av_play">{40, 40}</string>
 			<string key="btn_donateCC_LG">{92, 47}</string>
 			<string key="sparkle">{120, 42}</string>
+			<string key="stop">{32, 32}</string>
 			<string key="tick">{64, 64}</string>
 		</dictionary>
 	</data>

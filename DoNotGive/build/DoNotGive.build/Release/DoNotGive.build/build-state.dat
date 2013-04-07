@@ -4,8 +4,8 @@ r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/Info.plist DoNotGive/DoNotGive-Info.plist
 cProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DoNotGive-Prefix-edwuoewtmtfjctfvprvnherzatxn/DoNotGive-Prefix.pch.pth DoNotGive/DoNotGive-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DGPreferencesViewController.o /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DGPreferencesViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DoNotGive.o /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DoNotGive.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DGPreferencesViewController.o /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DGPreferencesViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/MacOS/DoNotGive normal x86_64
 cGenerateDSYMFile /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle.dSYM /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/build/Release/DoNotGive.bundle/Contents/MacOS/DoNotGive
 cCompileXIB /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DGPreferencesViewController.xib
@@ -121,7 +121,7 @@ s979
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8a3ab330cbfeb641^d542bd30cbfeb641^---0#1#0#--18"Check dependencies36"C0E14F81-F706-4549-A198-0265B998A887-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6e6935f0bf11b741^ca8c73f0bf11b741^---0#1#0#--18"Check dependencies36"95D2333B-5F45-48B4-938E-D2F55AD7ACB6-
 
 CCompileC build/DoNotGive.build/Release/DoNotGive.build/Objects-normal/x86_64/DGPreferencesViewController.o /Users/tigra/Desktop/Coding/MCServMan/DoNotGive/DoNotGive/DGPreferencesViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s385794786.127104
